@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Mar 09 15:08:01 2020
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : dds_generator
+Top-level Entity Name : dss_gen
+Family : Cyclone II
+Device : EP2C35F672C6
+Timing Models : Final
+Total logic elements : 1,415 / 33,216 ( 4 % )
+    Total combinational functions : 1,169 / 33,216 ( 4 % )
+    Dedicated logic registers : 860 / 33,216 ( 3 % )
+Total registers : 860
+Total pins : 25 / 475 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 82,432 / 483,840 ( 17 % )
+Embedded Multiplier 9-bit elements : 0 / 70 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

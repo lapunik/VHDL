@@ -1,0 +1,19 @@
+C:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT_ASYNC/tb_sedmi_segment_async.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Lapunik\Dropbox\VHDL\SEDMI_SEGMENT_ASYNC\tb_sedmi_segment_async.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_sedmi_segment_async
+-- Compiling architecture simulace of tb_sedmi_segment_async
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT_ASYNC/sedmi_segment_async.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT_ASYNC/sedmi_segment_async.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sedmi_segment_async
+-- Compiling architecture rtl of sedmi_segment_async
+
+} {} {}}

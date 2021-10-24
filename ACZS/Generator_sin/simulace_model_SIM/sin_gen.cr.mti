@@ -1,0 +1,35 @@
+C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sondy.vhd {1 {vcom -work work -2002 -explicit C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sondy.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sondy
+-- Compiling architecture SYN of sondy
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sin_gen.vhd {1 {vcom -work work -2008 -explicit {C:\Users\Lapunik\Dropbox\VHDL\ACZS\Generator_sin\simulace_model_SIM\sin_gen.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sin_gen
+-- Compiling architecture rtl of sin_gen
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sig_rom.vhd {1 {vcom -work work -2002 -explicit C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sig_rom.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sig_rom
+-- Compiling architecture SYN of sig_rom
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/tb_sin_gen.vhd {1 {vcom -work work -2002 -explicit C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/tb_sin_gen.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_sin_gen
+-- Compiling architecture sim of tb_sin_gen
+
+} {} {}}

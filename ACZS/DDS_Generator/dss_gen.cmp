@@ -1,0 +1,12 @@
+	component dss_gen is
+		port (
+			clk_clk       : in  std_logic                    := 'X'; -- clk
+			reset_reset_n : in  std_logic                    := 'X'; -- reset_n
+			dds_clk       : out std_logic;                           -- clk
+			dds_r         : out std_logic_vector(9 downto 0);        -- r
+			dds_g         : out std_logic_vector(9 downto 0);        -- g
+			dds_sync      : out std_logic;                           -- sync
+			dds_blank     : out std_logic                            -- blank
+		);
+	end component dss_gen;
+

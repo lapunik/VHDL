@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Lapunik/Dropbox/VHDL/REGISTR_8_bit
+Eregistr_8bit_async
+Z1 w1571395705
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:\Users\Lapunik\Dropbox\VHDL\REGISTR_8_bit\registr_8bit_async.vhd
+Z6 FC:\Users\Lapunik\Dropbox\VHDL\REGISTR_8_bit\registr_8bit_async.vhd
+l0
+L12
+Vf<JnoYmdNf;SGPg?7G:Z03
+!s100 @Z5oeE80<XkUBiJ49k:_S1
+Z7 OP;C;10.4a;61
+32
+Z8 !s110 1571425722
+!i10b 1
+Z9 !s108 1571425722.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Lapunik\Dropbox\VHDL\REGISTR_8_bit\registr_8bit_async.vhd|
+Z11 !s107 C:\Users\Lapunik\Dropbox\VHDL\REGISTR_8_bit\registr_8bit_async.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Artl
+R2
+R3
+R4
+DEx4 work 18 registr_8bit_async 0 22 f<JnoYmdNf;SGPg?7G:Z03
+l29
+L24
+V<fz=QSaOYZ8NJBb1D]gnI0
+!s100 :J<=M?mk`0SYT_Jzk_=5h2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_registr_8bit_async
+Z14 w1571428878
+R2
+R3
+R4
+R0
+Z15 8C:\Users\Lapunik\Dropbox\VHDL\REGISTR_8_bit\tb_registr_8bit_async.vhd
+Z16 FC:\Users\Lapunik\Dropbox\VHDL\REGISTR_8_bit\tb_registr_8bit_async.vhd
+l0
+L6
+Vg9Q>oYLU[Fz9HI=@<ZQAD3
+!s100 37`cInNbPJ<GzTjYnD3KV2
+R7
+31
+Z17 !s110 1571431329
+!i10b 1
+Z18 !s108 1571431329.000000
+Z19 !s90 -check_synthesis|-work|work|-93|C:\Users\Lapunik\Dropbox\VHDL\REGISTR_8_bit\tb_registr_8bit_async.vhd|
+Z20 !s107 C:\Users\Lapunik\Dropbox\VHDL\REGISTR_8_bit\tb_registr_8bit_async.vhd|
+!i113 1
+Z21 o-check_synthesis -work work -93 -O0
+R13
+Asimulace
+R2
+R3
+R4
+Z22 DEx4 work 21 tb_registr_8bit_async 0 22 g9Q>oYLU[Fz9HI=@<ZQAD3
+l32
+L9
+Z23 V0BE=0PS69fa@Z3eVH6PZa2
+Z24 !s100 [ME=X?Bz1@o13;9:i?n382
+R7
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R21
+R13

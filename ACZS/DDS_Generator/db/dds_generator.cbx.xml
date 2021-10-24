@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="dds_generator">
+		<CBX_INST_ENTRY INSTANCE_NAME="|dss_gen|dds_gen_avl:dds_gen_0|sig_rom:rom_1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_cv91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dss_gen|dds_gen_avl:dds_gen_0|sig_rom:rom_2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_cv91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|dss_gen|dss_gen_master_0:master_0|altera_avalon_sc_fifo:fifo|altsyncram:mem_rtl_0" CBX_FILE_NAME="altsyncram_elg1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

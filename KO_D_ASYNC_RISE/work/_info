@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Lapunik/Dropbox/VHDL
+Eko_d_async_rise
+Z0 w1570793793
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/Lapunik/Dropbox/VHDL/KO_D_ASYNC_RISE
+Z5 8C:/Users/Lapunik/Dropbox/VHDL/KO_D_ASYNC_RISE/ko_d_async_rise.vhd
+Z6 FC:/Users/Lapunik/Dropbox/VHDL/KO_D_ASYNC_RISE/ko_d_async_rise.vhd
+l0
+L11
+VhOF^n<JPE2mRU]^8hedB`2
+!s100 1emGGiGlBoib:?K5EHHG51
+Z7 OP;C;10.4a;61
+32
+Z8 !s110 1571393858
+!i10b 1
+Z9 !s108 1571393858.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lapunik/Dropbox/VHDL/KO_D_ASYNC_RISE/ko_d_async_rise.vhd|
+Z11 !s107 C:/Users/Lapunik/Dropbox/VHDL/KO_D_ASYNC_RISE/ko_d_async_rise.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Artl
+R1
+R2
+R3
+DEx4 work 15 ko_d_async_rise 0 22 hOF^n<JPE2mRU]^8hedB`2
+l29
+L24
+VH`Kb[6J7g^4k2K[AVc]4n3
+!s100 YHd??MnU@CU89_RdTNRZJ1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_ko_d_async_rise
+Z14 w1571393827
+R1
+R2
+R3
+R4
+Z15 8C:\Users\Lapunik\Dropbox\VHDL\KO_D_ASYNC_RISE\tb_ko_d_async_rise.vhd
+Z16 FC:\Users\Lapunik\Dropbox\VHDL\KO_D_ASYNC_RISE\tb_ko_d_async_rise.vhd
+l0
+L6
+VDjMV0TU<bi3=CUC59H;fg0
+!s100 Xi12PjMD?1E3dZ1AUfl613
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Lapunik\Dropbox\VHDL\KO_D_ASYNC_RISE\tb_ko_d_async_rise.vhd|
+Z18 !s107 C:\Users\Lapunik\Dropbox\VHDL\KO_D_ASYNC_RISE\tb_ko_d_async_rise.vhd|
+!i113 1
+R12
+R13
+Asimulace
+R1
+R2
+R3
+Z19 DEx4 work 18 tb_ko_d_async_rise 0 22 DjMV0TU<bi3=CUC59H;fg0
+l32
+L9
+VzmdnOgN:mb<<m1Q8NGLKz3
+!s100 ^:YigU>6H8]e9]HZJX0SL0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13

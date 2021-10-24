@@ -1,0 +1,504 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Lapunik\Dropbox\VHDL\VGA_SEMESTRALKA
+Ecolor_coding
+Z0 w1574295769
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Lapunik\Dropbox\VHDL\VGA_SIGNAL_GENERATOR_SEMESTRALKA
+Z5 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/color_coding.vhd
+Z6 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/color_coding.vhd
+l0
+L6
+V[N0f@nD8c:`bLNz6oI8Hm1
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1575674154.605000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/color_coding.vhd|
+Z10 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/color_coding.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 ODQ=;_2?0ACJi39Z;Z:1L0
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 12 color_coding 0 22 [N0f@nD8c:`bLNz6oI8Hm1
+l23
+L21
+VkRFO=2JTL7aKHEUFEA6Ni0
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 ^RUU6jICb`zlE>f0KJZk92
+!i10b 1
+Ed_async
+Z13 w1574417834
+R1
+R2
+R3
+R4
+Z14 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/D_async.vhd
+Z15 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/D_async.vhd
+l0
+L6
+V@GR8]CA0YiSVFijWI5@oO2
+R7
+32
+Z16 !s108 1575674154.972000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/D_async.vhd|
+Z18 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/D_async.vhd|
+R11
+R12
+!s100 z>ko`XnNBbMIIPVe3VK3k3
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 7 d_async 0 22 @GR8]CA0YiSVFijWI5@oO2
+l20
+L18
+VP[4hShO0I77BYmC]nTnaE2
+R7
+32
+R16
+R17
+R18
+R11
+R12
+!s100 ?KI6>`MmDk2f7m4S@?m8J0
+!i10b 1
+Epicture_generator
+Z19 w1575656718
+R1
+R2
+R3
+R4
+Z20 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/picture_generator.vhd
+Z21 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/picture_generator.vhd
+l0
+L6
+VN3NoiKM`QR^9A]8ALa^?13
+R7
+32
+Z22 !s108 1575674155.134000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/picture_generator.vhd|
+Z24 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/picture_generator.vhd|
+R11
+R12
+!s100 DQg<G=[P2N<2LEoDADSmg1
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 17 picture_generator 0 22 N3NoiKM`QR^9A]8ALa^?13
+l51
+L21
+V3lfG[jA4CRi^ND=glG5en1
+R7
+32
+R22
+R23
+R24
+R11
+R12
+!s100 7eBETW1L97XKHXZ8izl1m0
+!i10b 1
+Erom
+Z25 w1575026485
+R2
+R3
+R4
+Z26 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/rom.vhd
+Z27 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/rom.vhd
+l0
+L42
+VzFR2e;1k>Fl?G^IEoed0<0
+R7
+32
+Z28 !s108 1575674155.282000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/rom.vhd|
+Z30 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/rom.vhd|
+R11
+R12
+!s100 SX3iYV?=IYza?IK@RCo`<0
+!i10b 1
+Asyn
+R2
+R3
+DEx4 work 3 rom 0 22 zFR2e;1k>Fl?G^IEoed0<0
+l81
+L52
+V5imC905LHQM5TQ9aVZZgT2
+R7
+32
+R28
+R29
+R30
+R11
+R12
+!s100 k@HWScPZ?eTVYQNLaa<S71
+!i10b 1
+Esignal_generator
+Z31 w1574425688
+R1
+R2
+R3
+R4
+Z32 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/signal_generator.vhd
+Z33 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/signal_generator.vhd
+l0
+L6
+VccY^]T86gBbi@4YD=2BIc1
+R7
+32
+Z34 !s108 1575674155.529000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/signal_generator.vhd|
+Z36 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/signal_generator.vhd|
+R11
+R12
+!s100 07WQPN<09l9Ae5aJc7Ngi3
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 16 signal_generator 0 22 ccY^]T86gBbi@4YD=2BIc1
+l26
+L21
+V:IF9K`05Ud>M9PU3:X_UV1
+R7
+32
+R34
+R35
+R36
+R11
+R12
+!s100 gDze6k]8XdYg[43@QUoOl1
+!i10b 1
+Et_async
+Z37 w1574295784
+R1
+R2
+R3
+R4
+Z38 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/T_async.vhd
+Z39 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/T_async.vhd
+l0
+L6
+Vk6V0ck_BehS>8:^6JIZRV0
+R7
+32
+Z40 !s108 1575674155.696000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/T_async.vhd|
+Z42 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/T_async.vhd|
+R11
+R12
+!s100 z5e4SOWje9;WDknAC:hg=3
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 7 t_async 0 22 k6V0ck_BehS>8:^6JIZRV0
+l24
+L19
+V8Y5fgiENJ6S1Bao=6b9h01
+R7
+32
+R40
+R41
+R42
+R11
+R12
+!s100 <Ga5oVT>hR[8Zn4KJ>[VQ3
+!i10b 1
+Etb_color_coding
+Z43 w1574295879
+R1
+R2
+R3
+R4
+Z44 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_color_coding.vhd
+Z45 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_color_coding.vhd
+l0
+L6
+Vb:^:61Wb`B5K^A]j17NS[3
+R7
+32
+Z46 !s108 1575674155.863000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_color_coding.vhd|
+Z48 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_color_coding.vhd|
+R11
+R12
+!s100 [CZML3<K;NkUNY`FGPaHA1
+!i10b 1
+Asimulace
+R1
+R2
+R3
+DEx4 work 15 tb_color_coding 0 22 b:^:61Wb`B5K^A]j17NS[3
+l40
+L9
+VS?S:zaz27e<hHVaFD0U283
+R7
+32
+R46
+R47
+R48
+R11
+R12
+!s100 hKofzTU:A_9Ani`?Y3I5i3
+!i10b 1
+Etb_d_async
+Z49 w1574426991
+R1
+R2
+R3
+R4
+Z50 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_D_async.vhd
+Z51 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_D_async.vhd
+l0
+L6
+V1hdlez1HRJ=dDhP1@X:RZ2
+R7
+32
+Z52 !s108 1575674156.049000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_D_async.vhd|
+Z54 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_D_async.vhd|
+R11
+R12
+!s100 K`WG<3>>J0cO7dJ1O`nXL2
+!i10b 1
+Asimulace
+R1
+R2
+R3
+DEx4 work 10 tb_d_async 0 22 1hdlez1HRJ=dDhP1@X:RZ2
+l28
+L10
+VIBIcHEn0T1?D1H>>NHZZb0
+R7
+32
+R52
+R53
+R54
+R11
+R12
+!s100 CRA_oVeGn3fNE0KD8KMP<2
+!i10b 1
+Etb_picture_generator
+Z55 w1575633395
+R1
+R2
+R3
+R4
+Z56 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_picture_generator.vhd
+Z57 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_picture_generator.vhd
+l0
+L6
+VHnm@4I]JJFFjo6LaH^Vci1
+R7
+32
+Z58 !s108 1575674156.214000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_picture_generator.vhd|
+Z60 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_picture_generator.vhd|
+R11
+R12
+!s100 EoeAoSYUOQGYMS^P@G78R3
+!i10b 1
+Asimulace
+R1
+R2
+R3
+DEx4 work 20 tb_picture_generator 0 22 Hnm@4I]JJFFjo6LaH^Vci1
+l36
+L9
+V05YHnbCGM`[QP=37Vjhk`1
+R7
+32
+R58
+R59
+R60
+R11
+R12
+!s100 ??UnVM<8k`51@QeR5Ro@C2
+!i10b 1
+Etb_signal_generator
+Z61 w1574295960
+R1
+R2
+R3
+R4
+Z62 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_signal_generator.vhd
+Z63 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_signal_generator.vhd
+l0
+L6
+V`]c9`IKjGIMk6bbWOA1Ie3
+R7
+32
+Z64 !s108 1575674156.379000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_signal_generator.vhd|
+Z66 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_signal_generator.vhd|
+R11
+R12
+!s100 70nGh]e2R6l3L[=kG?6>l2
+!i10b 1
+Asimulace
+R1
+R2
+R3
+DEx4 work 19 tb_signal_generator 0 22 `]c9`IKjGIMk6bbWOA1Ie3
+l42
+L15
+V?eIOF:U[8@Z8i2c;`J1NW2
+R7
+32
+R64
+R65
+R66
+R11
+R12
+!s100 H<EUAF]UUZW@@KZeZLiHE2
+!i10b 1
+Etb_t_async
+Z67 w1574295925
+R1
+R2
+R3
+R4
+Z68 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_T_async.vhd
+Z69 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_T_async.vhd
+l0
+L6
+V=CO0gRIG9k=gnUH<P44;N1
+R7
+32
+Z70 !s108 1575674156.541000
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_T_async.vhd|
+Z72 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_T_async.vhd|
+R11
+R12
+!s100 aTT;L_iK^LYAZZY?HgSF71
+!i10b 1
+Asimulace
+R1
+R2
+R3
+DEx4 work 10 tb_t_async 0 22 =CO0gRIG9k=gnUH<P44;N1
+l32
+L9
+Ve^D4798NQYieA=@NO6fS_0
+R7
+32
+R70
+R71
+R72
+R11
+R12
+!s100 @]nUP>^E;>T?YfN6b>_hH1
+!i10b 1
+Etb_vga_gen
+Z73 w1574508122
+R1
+R2
+R3
+R4
+Z74 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_vga_gen.vhd
+Z75 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_vga_gen.vhd
+l0
+L6
+V8;1gf@K:nUC=a^VgdnI_o0
+R7
+32
+Z76 !s108 1575674156.701000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_vga_gen.vhd|
+Z78 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/tb_vga_gen.vhd|
+R11
+R12
+!s100 ZKLK[S?2FSQ7]j[CSKH^f2
+!i10b 1
+Asimulace
+R1
+R2
+R3
+DEx4 work 10 tb_vga_gen 0 22 8;1gf@K:nUC=a^VgdnI_o0
+l39
+L9
+Vdei9=Uc9L25WD>meL;34g3
+!s100 2lILlFeU;EGa:OGlKK5]N3
+R7
+32
+R76
+R77
+R78
+R11
+R12
+!i10b 1
+Evga_gen
+Z79 w1574814893
+R1
+R2
+R3
+R4
+Z80 8C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/vga_gen.vhd
+Z81 FC:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/vga_gen.vhd
+l0
+L6
+VPofU^NW^9d_L7e;X1e6SD3
+!s100 `[^7[D]93P3a26@YcefEW2
+R7
+32
+!i10b 1
+Z82 !s108 1575674156.848000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/vga_gen.vhd|
+Z84 !s107 C:/Users/Lapunik/Dropbox/VHDL/VGA_SIGNAL_GENERATOR_SEMESTRALKA/vga_gen.vhd|
+R11
+R12
+Artl
+R1
+R2
+R3
+Z85 DEx4 work 7 vga_gen 0 22 PofU^NW^9d_L7e;X1e6SD3
+l103
+L22
+Z86 V5c_IJNVnEH6?5GXkf2zW11
+Z87 !s100 Z34GGNIBn05L::lL1L`3n0
+R7
+32
+!i10b 1
+R82
+R83
+R84
+R11
+R12
+Asimulace
+w1574501779
+R1
+R2
+R3
+R85
+R74
+R75
+l39
+L9
+Vk7PUF;4<I[gkk8EH`]h>X0
+R7
+32
+R11
+R12
+R77
+R78
+!s100 ]A6BSnfckzY495k`MEE3:2
+!s108 1574507919.911000
+!i10b 1

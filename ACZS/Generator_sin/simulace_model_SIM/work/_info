@@ -1,0 +1,149 @@
+m255
+K3
+13
+cModel Technology
+dD:\Programy\ModelSIM\modelsim_ase\win32aloem
+Esig_rom
+Z0 w1581944241
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Lapunik\Dropbox\VHDL\ACZS\Generator_sin\simulace_model_SIM
+Z4 8C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sig_rom.vhd
+Z5 FC:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sig_rom.vhd
+l0
+L42
+Vc3Le:GZD:gO]X5kZR46@21
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1582544388.298000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sig_rom.vhd|
+Z9 !s107 C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sig_rom.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 d<2DX2EEdORgEIATUV3AS1
+!i10b 1
+Asyn
+R1
+R2
+DEx4 work 7 sig_rom 0 22 c3Le:GZD:gO]X5kZR46@21
+l83
+L53
+V?5<O9bKkOTE8Lc2FZXVFG3
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 f@?B517JG=SjYk^X5MXKS2
+!i10b 1
+Esin_gen
+Z12 w1582544376
+Z13 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R1
+R2
+R3
+Z14 8C:\Users\Lapunik\Dropbox\VHDL\ACZS\Generator_sin\simulace_model_SIM\sin_gen.vhd
+Z15 FC:\Users\Lapunik\Dropbox\VHDL\ACZS\Generator_sin\simulace_model_SIM\sin_gen.vhd
+l0
+L6
+VhPJkFXQR33P0:XMaHHKYP0
+R6
+33
+Z16 !s108 1582544388.436000
+Z17 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:\Users\Lapunik\Dropbox\VHDL\ACZS\Generator_sin\simulace_model_SIM\sin_gen.vhd|
+Z18 !s107 C:\Users\Lapunik\Dropbox\VHDL\ACZS\Generator_sin\simulace_model_SIM\sin_gen.vhd|
+Z19 o-work work -2008 -explicit -O0
+R11
+!s100 RoS:CF58K;cX`m]R?zIH51
+!i10b 1
+Artl
+R13
+R1
+R2
+DEx4 work 7 sin_gen 0 22 hPJkFXQR33P0:XMaHHKYP0
+l54
+L21
+VJ0ilFM?dS9=@cPSNdB>U93
+R6
+33
+R16
+R17
+R18
+R19
+R11
+!s100 @3dgG_oK5<^`[fUOH]0bP3
+!i10b 1
+Esondy
+Z20 w1582543949
+R1
+R2
+R3
+Z21 8C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sondy.vhd
+Z22 FC:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sondy.vhd
+l0
+L42
+VTO0dB^O0NES]eU`YOECm?3
+!s100 ;d;eKi4b`4MWcS9BQnhNz0
+R6
+32
+!i10b 1
+Z23 !s108 1582544388.733000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sondy.vhd|
+Z25 !s107 C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/sondy.vhd|
+R10
+R11
+Asyn
+R1
+R2
+Z26 DEx4 work 5 sondy 0 22 TO0dB^O0NES]eU`YOECm?3
+l74
+L51
+Z27 V_RU]TMC1Y7dj4KZYIPCcj1
+Z28 !s100 jmZijI:EMNAgD2FiGKECP1
+R6
+32
+!i10b 1
+R23
+R24
+R25
+R10
+R11
+Etb_sin_gen
+Z29 w1581973014
+R13
+R1
+R2
+R3
+Z30 8C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/tb_sin_gen.vhd
+Z31 FC:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/tb_sin_gen.vhd
+l0
+L6
+VbOjUH0>IcPOmAcLYFWWHU2
+R6
+32
+Z32 !s108 1582544388.611000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/tb_sin_gen.vhd|
+Z34 !s107 C:/Users/Lapunik/Dropbox/VHDL/ACZS/Generator_sin/simulace_model_SIM/tb_sin_gen.vhd|
+R10
+R11
+!s100 f]V=1mfhzBRkWK4RDgYL61
+!i10b 1
+Asim
+R13
+R1
+R2
+DEx4 work 10 tb_sin_gen 0 22 bOjUH0>IcPOmAcLYFWWHU2
+l35
+L9
+VO6[`4Aj`5TVUzUQkEfin:1
+!s100 LMa[P;L32AMY`lY5DbX>=1
+R6
+32
+R32
+R33
+R34
+R10
+R11
+!i10b 1

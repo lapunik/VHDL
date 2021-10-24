@@ -1,0 +1,151 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Lapunik\Dropbox\VHDL\ACZS\Generator_sin\simulace_model_SIM
+Edds_gen_avl
+Z0 w1583758444
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Lapunik\Dropbox\VHDL\ACZS\DDS_Generator
+Z5 8C:\Users\Lapunik\Dropbox\VHDL\ACZS\DDS_Generator\dds_gen_avl.vhd
+Z6 FC:\Users\Lapunik\Dropbox\VHDL\ACZS\DDS_Generator\dds_gen_avl.vhd
+l0
+L6
+VS0g0GYT0`2NiFA@357C?Z1
+Z7 OV;C;10.1d;51
+33
+Z8 !s108 1583758915.473000
+Z9 !s90 -reportprogress|300|-work|work|-2008|-explicit|C:\Users\Lapunik\Dropbox\VHDL\ACZS\DDS_Generator\dds_gen_avl.vhd|
+Z10 !s107 C:\Users\Lapunik\Dropbox\VHDL\ACZS\DDS_Generator\dds_gen_avl.vhd|
+Z11 o-work work -2008 -explicit -O0
+Z12 tExplicit 1
+!s100 JfN28ieGHMD4[a7M]>2QA2
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 11 dds_gen_avl 0 22 S0g0GYT0`2NiFA@357C?Z1
+l66
+L27
+VX>?OkQGFDoFQG`Z@R71943
+!s100 i4LeJUFX5H;X2HLJ9kiXY0
+R7
+33
+R8
+R9
+R10
+R11
+R12
+!i10b 1
+Edds_logic
+Z13 w1583756963
+R1
+R2
+R3
+R4
+Z14 8C:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/dds_logic.vhd
+Z15 FC:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/dds_logic.vhd
+l0
+L6
+V:@MGLcPMC07b3HQIRR3PS2
+R7
+32
+Z16 !s108 1583758914.990000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/dds_logic.vhd|
+Z18 !s107 C:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/dds_logic.vhd|
+Z19 o-work work -2002 -explicit -O0
+R12
+!s100 =>e7;n9?Z_aOm=a5?zNGl3
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 9 dds_logic 0 22 :@MGLcPMC07b3HQIRR3PS2
+l31
+L24
+Vn=[E9bSlGcBJXVm6DOU1a1
+R7
+32
+R16
+R17
+R18
+R19
+R12
+!s100 hLDcfz]@2ZfOhNN821V@N1
+!i10b 1
+Esig_rom
+Z20 w1581944241
+R2
+R3
+R4
+Z21 8C:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/sig_rom.vhd
+Z22 FC:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/sig_rom.vhd
+l0
+L42
+Vc3Le:GZD:gO]X5kZR46@21
+R7
+32
+Z23 !s108 1583758915.210000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/sig_rom.vhd|
+Z25 !s107 C:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/sig_rom.vhd|
+R19
+R12
+!s100 d<2DX2EEdORgEIATUV3AS1
+!i10b 1
+Asyn
+R2
+R3
+DEx4 work 7 sig_rom 0 22 c3Le:GZD:gO]X5kZR46@21
+l83
+L53
+V?5<O9bKkOTE8Lc2FZXVFG3
+R7
+32
+R23
+R24
+R25
+R19
+R12
+!s100 f@?B517JG=SjYk^X5MXKS2
+!i10b 1
+Etb_dds_gen_avl
+Z26 w1583758903
+R1
+R2
+R3
+R4
+Z27 8C:\Users\Lapunik\Dropbox\VHDL\ACZS\DDS_Generator\tb_dds_gen_avl.vhd
+Z28 FC:\Users\Lapunik\Dropbox\VHDL\ACZS\DDS_Generator\tb_dds_gen_avl.vhd
+l0
+L6
+VQ17PkiUHHAOh6@jb_>Oh43
+!s100 3TdhDUQ`^TInkh]7_N0CI0
+R7
+32
+!i10b 1
+Z29 !s108 1583758915.737000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Lapunik\Dropbox\VHDL\ACZS\DDS_Generator\tb_dds_gen_avl.vhd|
+Z31 !s107 C:\Users\Lapunik\Dropbox\VHDL\ACZS\DDS_Generator\tb_dds_gen_avl.vhd|
+R19
+R12
+Asim
+R1
+R2
+R3
+Z32 DEx4 work 14 tb_dds_gen_avl 0 22 Q17PkiUHHAOh6@jb_>Oh43
+l46
+L9
+VMJTf?`hVlY9NY]7GXgA5U3
+!s100 znaV[X`:^@:^Qoi8cCROh0
+R7
+32
+!i10b 1
+R29
+R30
+R31
+R19
+R12

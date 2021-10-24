@@ -1,0 +1,382 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT_ASYNC
+Ecounter
+Z0 w1573255382
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT
+Z5 8C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/counter.vhd
+Z6 FC:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/counter.vhd
+l0
+L12
+VM<4S:odP1gmf0@73X1kWQ1
+!s100 =;5_cR?<;AOWP`<<caG5N1
+Z7 OP;C;10.4a;61
+32
+Z8 !s110 1573935166
+!i10b 1
+Z9 !s108 1573935166.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/counter.vhd|
+Z11 !s107 C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/counter.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Artl
+R1
+R2
+R3
+DEx4 work 7 counter 0 22 M<4S:odP1gmf0@73X1kWQ1
+l25
+L23
+VQC[D;U2YKJ8645Jce8kHQ2
+!s100 [Bz3LMng]iEi9P^YK?b_=1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Enasobicka_async
+Z14 w1573219832
+R1
+R2
+R3
+R4
+Z15 8C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/nasobicka_async.vhd
+Z16 FC:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/nasobicka_async.vhd
+l0
+L7
+VjGGQbO5O9jcBMH1J1HgPo3
+!s100 CX=:ObfLz]W[SzDRAV:cD1
+R7
+32
+Z17 !s110 1573935165
+!i10b 1
+Z18 !s108 1573935165.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/nasobicka_async.vhd|
+Z20 !s107 C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/nasobicka_async.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 15 nasobicka_async 0 22 jGGQbO5O9jcBMH1J1HgPo3
+l20
+L18
+VFH4Gkc:DXo9lemzFMA;hM3
+!s100 mkTkWK]PkgWFF01d[oogO3
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Eregistr_8bit_async
+Z21 w1573215052
+R1
+R2
+R3
+R4
+Z22 8C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/registr_8bit_async.vhd
+Z23 FC:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/registr_8bit_async.vhd
+l0
+L12
+VzM43;5AbOaKn]Q9kX_Tk>1
+!s100 Uj3o>EUW4WjagmnOa47[Y2
+R7
+32
+R17
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/registr_8bit_async.vhd|
+Z25 !s107 C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/registr_8bit_async.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 18 registr_8bit_async 0 22 zM43;5AbOaKn]Q9kX_Tk>1
+l29
+L24
+V<fz=QSaOYZ8NJBb1D]gnI0
+!s100 :J<=M?mk`0SYT_Jzk_=5h2
+R7
+32
+R17
+!i10b 1
+R18
+R24
+R25
+!i113 1
+R12
+R13
+Esedmi_segment_async
+Z26 w1573215066
+R1
+R2
+R3
+R4
+Z27 8C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/sedmi_segment_async.vhd
+Z28 FC:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/sedmi_segment_async.vhd
+l0
+L12
+Vz]=MYaDTZP2FmbQ_5oWb93
+!s100 WCZEKWLPT;GVXzNa`@KKU3
+R7
+32
+R17
+!i10b 1
+R18
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/sedmi_segment_async.vhd|
+Z30 !s107 C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/sedmi_segment_async.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 19 sedmi_segment_async 0 22 z]=MYaDTZP2FmbQ_5oWb93
+l24
+L22
+V00=OXJm9E:C_zKc_9dKYJ3
+!s100 6d_^8LJ]CzGbz>fKfEU1Q1
+R7
+32
+R17
+!i10b 1
+R18
+R29
+R30
+!i113 1
+R12
+R13
+Esoucet_async
+Z31 w1573213024
+R1
+R2
+R3
+R4
+Z32 8C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/soucet_async.vhd
+Z33 FC:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/soucet_async.vhd
+l0
+L7
+VlBLi9aShT78Ui0Cb5@7fn0
+!s100 U?;lJDo20k_?nAnH@5Xa]3
+R7
+32
+R17
+!i10b 1
+R18
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/soucet_async.vhd|
+Z35 !s107 C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/soucet_async.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 12 soucet_async 0 22 lBLi9aShT78Ui0Cb5@7fn0
+l20
+L18
+VaKdQa<^GCcKX@lHFcPVLC2
+!s100 lcG4=KVX`jOLIIgS9Q6F<2
+R7
+32
+R17
+!i10b 1
+R18
+R34
+R35
+!i113 1
+R12
+R13
+Etb_top_counter_sedmi_segment
+Z36 w1573257036
+R1
+R2
+R3
+R4
+Z37 8C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/tb_top_counter_sedmi_segment.vhd
+Z38 FC:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/tb_top_counter_sedmi_segment.vhd
+l0
+L6
+VYaK_DmoWPQO;Gi?9i;Sjf3
+!s100 22IM?VeeVBE478@9O9;`I2
+R7
+32
+R8
+!i10b 1
+R9
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/tb_top_counter_sedmi_segment.vhd|
+Z40 !s107 C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/tb_top_counter_sedmi_segment.vhd|
+!i113 1
+R12
+R13
+Asimulace
+R1
+R2
+R3
+Z41 DEx4 work 28 tb_top_counter_sedmi_segment 0 22 YaK_DmoWPQO;Gi?9i;Sjf3
+l33
+L9
+Z42 VBEY^P;>1aMiU`GJ3Gg96Y1
+Z43 !s100 08[C@_6bK?T9kBifFX>[f2
+R7
+32
+R8
+!i10b 1
+R9
+R39
+R40
+!i113 1
+R12
+R13
+Etb_top_registr_sedmi_segment
+w1573256684
+R1
+R2
+R3
+R4
+R37
+R38
+l0
+L6
+V4MCgNQM41RL=F^8gN1@270
+!s100 ^C4Kd7M`Nc?XQ7PI]Lc:U0
+R7
+32
+!s110 1573256775
+!i10b 1
+!s108 1573256775.000000
+R39
+R40
+!i113 1
+R12
+R13
+Asimulace
+R1
+R2
+R3
+DEx4 work 28 tb_top_registr_sedmi_segment 0 22 4MCgNQM41RL=F^8gN1@270
+l35
+L9
+V83Y6BW:QYhSz@@Rn[<KI90
+!s100 2l1H0d2Mg;IXz`NVVXHn]1
+R7
+32
+Z44 !s110 1573220787
+!i10b 1
+Z45 !s108 1573220787.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/tb_top_registr_sedmi_segment.vhd|
+!s107 C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/tb_top_registr_sedmi_segment.vhd|
+!i113 1
+R12
+R13
+FC:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/tb_top_registr_sedmi_segment.vhd
+w1573215011
+8C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/tb_top_registr_sedmi_segment.vhd
+Etop_counter_sedmi_segment
+Z46 w1573256297
+R1
+R2
+R3
+R4
+Z47 8C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/top_counter_sedmi_segment.vhd
+Z48 FC:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/top_counter_sedmi_segment.vhd
+l0
+L7
+V3ZHjQ=FE4X=1i;=L3BL912
+!s100 mL[Ic:[8zk:@K6V<4kQ?b0
+R7
+32
+R8
+!i10b 1
+R9
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/top_counter_sedmi_segment.vhd|
+Z50 !s107 C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/top_counter_sedmi_segment.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 25 top_counter_sedmi_segment 0 22 3ZHjQ=FE4X=1i;=L3BL912
+l48
+L19
+V]KGNcLEjK0O@0Ri0OjAdD3
+!s100 ZYX[[AOf8<VG5?>kCHXSd1
+R7
+32
+R8
+!i10b 1
+R9
+R49
+R50
+!i113 1
+R12
+R13
+Etop_registr_sedmi_segment
+Z51 w1573220214
+R1
+R2
+R3
+R4
+Z52 8C:\Users\Lapunik\Dropbox\VHDL\TOP_REGISTR_SEDM_SEGMENT\top_registr_sedmi_segment.vhd
+Z53 FC:\Users\Lapunik\Dropbox\VHDL\TOP_REGISTR_SEDM_SEGMENT\top_registr_sedmi_segment.vhd
+l0
+L7
+VD4`RN:SAXzlE[UFLV426G2
+!s100 aR]RU?^KbfS@@kWN8@nCG0
+R7
+32
+R44
+!i10b 1
+R45
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Lapunik\Dropbox\VHDL\TOP_REGISTR_SEDM_SEGMENT\top_registr_sedmi_segment.vhd|
+Z55 !s107 C:\Users\Lapunik\Dropbox\VHDL\TOP_REGISTR_SEDM_SEGMENT\top_registr_sedmi_segment.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 25 top_registr_sedmi_segment 0 22 D4`RN:SAXzlE[UFLV426G2
+l62
+L20
+V3gM0OW^n7^9D]E;1AiNJ=1
+!s100 l5EeXAVV032S_[R@J2mQ=3
+R7
+32
+R44
+!i10b 1
+R45
+R54
+R55
+!i113 1
+R12
+R13

@@ -1,0 +1,2 @@
+SW7 a6 SW4 je jedno číslo a to sčítám s číslem SW3 až SW0
+clk je SW17

@@ -1,0 +1,486 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Lapunik\Dropbox\VHDL\VGA_SIGNAL_GENERATOR_SEMESTRALKA\ZKOUSKA
+Efibb
+Z0 w1580232071
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA
+Z5 8C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\fibbonachi_generator.vhdl
+Z6 FC:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\fibbonachi_generator.vhdl
+l0
+L6
+V=:WQDAhePWAl:<_QNS[2X1
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1580232074.337000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\fibbonachi_generator.vhdl|
+Z10 !s107 C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\fibbonachi_generator.vhdl|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 gSA7AVFE1ncWikBJkIGfK3
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 4 fibb 0 22 =:WQDAhePWAl:<_QNS[2X1
+l19
+L14
+V40^Ri[QhZbbX6H?1DNhmN1
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 I@ggM412Z14HPcJLPOf<z3
+!i10b 1
+Efibbonachi_generator
+Z13 w1580256526
+R1
+R2
+R3
+R4
+Z14 8C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/fibbonachi_generator.vhdl
+Z15 FC:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/fibbonachi_generator.vhdl
+l0
+L6
+VM3bQ:F7boR@BTC6Q2GG4z1
+R7
+32
+Z16 !s108 1580425004.674000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/fibbonachi_generator.vhdl|
+Z18 !s107 C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/fibbonachi_generator.vhdl|
+R11
+R12
+!s100 =Uen24Lk5FEJSmJSK]6WN3
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 20 fibbonachi_generator 0 22 M3bQ:F7boR@BTC6Q2GG4z1
+l21
+L14
+V0DN;Kh4_NQ9Tg<jf=5n4R0
+R7
+32
+R16
+R17
+R18
+R11
+R12
+!s100 Ol]:ffzfU75HIF9U?R8:R2
+!i10b 1
+Ejk
+Z19 w1580299523
+R1
+R2
+R3
+R4
+Z20 8C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\JK.vhdl
+Z21 FC:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\JK.vhdl
+l0
+L5
+VH35Lo[]7NOJPO3E1V3;@U3
+R7
+32
+Z22 !s108 1580299681.170000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\JK.vhdl|
+Z24 !s107 C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\JK.vhdl|
+R11
+R12
+!s100 VC4[bJg^;H`^eXSD8NRle1
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 2 jk 0 22 H35Lo[]7NOJPO3E1V3;@U3
+l16
+L15
+V>T7>b4Sh73Y3inzPY<IYk3
+R7
+32
+R22
+R23
+R24
+R11
+R12
+!s100 5SO]n3RQYi::n:Ylh:^og0
+!i10b 1
+Emealy
+Z25 w1580319582
+R1
+R2
+R3
+R4
+Z26 8C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/mealy.vhdl
+Z27 FC:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/mealy.vhdl
+l0
+L5
+VNE:BS5BL4S;j4[=]_bOej0
+R7
+32
+Z28 !s108 1580425005.050000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/mealy.vhdl|
+Z30 !s107 C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/mealy.vhdl|
+R11
+R12
+!s100 G1PllC@3hiM9KE_mCXHW=2
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 5 mealy 0 22 NE:BS5BL4S;j4[=]_bOej0
+l19
+L15
+VhfT1h3;E60Ogk@f5Amjo>2
+R7
+32
+R28
+R29
+R30
+R11
+R12
+!s100 UQGGPgFij[U:>2ok2gfP^1
+!i10b 1
+Emultiplexor
+Z31 w1580232281
+R1
+R2
+R3
+R4
+Z32 8C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\multiplexer.vhdl
+Z33 FC:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\multiplexer.vhdl
+l0
+L6
+VYZ01ZTSMRR9VcjR?8fIcK2
+R7
+32
+Z34 !s108 1580425003.972000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\multiplexer.vhdl|
+Z36 !s107 C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\multiplexer.vhdl|
+R11
+R12
+!s100 Jj>AR?bTn;nGU]Z4DL5H_3
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 11 multiplexor 0 22 YZ01ZTSMRR9VcjR?8fIcK2
+l18
+L17
+VgEDdM1PPJX]oToLz[6oQ90
+R7
+32
+R34
+R35
+R36
+R11
+R12
+!s100 IEinC=:@cknEg6B<ZobZb2
+!i10b 1
+Epravdivostni_tabulka
+Z37 w1580295095
+R1
+R2
+R3
+R4
+Z38 8C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/pravdivostni_tabulka.vhdl
+Z39 FC:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/pravdivostni_tabulka.vhdl
+l0
+L5
+VSWMjW5JUVzm8d1eh7H7AA2
+R7
+32
+Z40 !s108 1580425005.444000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/pravdivostni_tabulka.vhdl|
+Z42 !s107 C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/pravdivostni_tabulka.vhdl|
+R11
+R12
+!s100 D^`iVJdzBTSd`dU@fFYcJ0
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 20 pravdivostni_tabulka 0 22 SWMjW5JUVzm8d1eh7H7AA2
+l17
+L16
+V>F3d6>M43:zDVd9edk6za0
+R7
+32
+R40
+R41
+R42
+R11
+R12
+!s100 E=7Gh>GORM`1VLBUN:JnJ2
+!i10b 1
+Ers
+Z43 w1580298519
+R1
+R2
+R3
+R4
+Z44 8C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/rs.vhdl
+Z45 FC:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/rs.vhdl
+l0
+L5
+Vc<G:@oQWnjSmL4BLhZPL41
+!s100 0G:i7=Y`7RVaBFVVHI9UW0
+R7
+32
+!i10b 1
+Z46 !s108 1580425005.797000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/rs.vhdl|
+Z48 !s107 C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/rs.vhdl|
+R11
+R12
+Artl
+R1
+R2
+R3
+Z49 DEx4 work 2 rs 0 22 c<G:@oQWnjSmL4BLhZPL41
+l15
+L14
+Z50 VW7lXUU1n8K8Thm?]H8Q<00
+Z51 !s100 NIZ9HoS6`;lAf_oolMT9>3
+R7
+32
+!i10b 1
+R46
+R47
+R48
+R11
+R12
+Etb_fibbonachi_generator
+Z52 w1580256745
+R1
+R2
+R3
+R4
+Z53 8C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_fibbonachi_generator.vhdl
+Z54 FC:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_fibbonachi_generator.vhdl
+l0
+L6
+V7SefC^j[Ij?S3?oZ3AhB@1
+R7
+32
+Z55 !s108 1580425004.866000
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_fibbonachi_generator.vhdl|
+Z57 !s107 C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_fibbonachi_generator.vhdl|
+R11
+R12
+!s100 R=IO;@2bij0KjM;Ok4I`@1
+!i10b 1
+Asim
+R1
+R2
+R3
+DEx4 work 23 tb_fibbonachi_generator 0 22 7SefC^j[Ij?S3?oZ3AhB@1
+l26
+L10
+VaE4@5l1AHa[VP]=5NNNi^0
+R7
+32
+R55
+R56
+R57
+R11
+R12
+!s100 b6b7XNBe1LLJUD:[YCSlS2
+!i10b 1
+Etb_jk
+Z58 w1580299672
+R1
+R2
+R3
+R4
+Z59 8C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\tb_JK.vhdl
+Z60 FC:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\tb_JK.vhdl
+l0
+L5
+VOjA2ZCzok0]^nfFfK63=W1
+R7
+32
+Z61 !s108 1580299681.664000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\tb_JK.vhdl|
+Z63 !s107 C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\tb_JK.vhdl|
+R11
+R12
+!s100 <@lB>G3H^@fjDZb3@V7Lk0
+!i10b 1
+Asim
+R1
+R2
+R3
+DEx4 work 5 tb_jk 0 22 OjA2ZCzok0]^nfFfK63=W1
+l27
+L8
+V`zjzXI4QmH<TF4A1bRDEj1
+R7
+32
+R61
+R62
+R63
+R11
+R12
+!s100 [g@9;mclSZ^jWh6k1bImF0
+!i10b 1
+Etb_mealy
+Z64 w1580292111
+R1
+R2
+R3
+R4
+Z65 8C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_mealy.vhdl
+Z66 FC:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_mealy.vhdl
+l0
+L5
+Vmm0g9zi7GYBJRSHGmI8;b0
+R7
+32
+Z67 !s108 1580425005.261000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_mealy.vhdl|
+Z69 !s107 C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_mealy.vhdl|
+R11
+R12
+!s100 eZIlJe0J@l0`okD2?KVM@3
+!i10b 1
+Asim
+R1
+R2
+R3
+DEx4 work 8 tb_mealy 0 22 mm0g9zi7GYBJRSHGmI8;b0
+l25
+L8
+V6WL6UPK]=>YbmZjP3LQ2E3
+R7
+32
+R67
+R68
+R69
+R11
+R12
+!s100 L9g=RAf<YXiEcnlK^FD6O2
+!i10b 1
+Etb_multiplexer
+Z70 w1580223808
+R1
+R2
+R3
+R4
+Z71 8C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_multiplexer.vhd
+Z72 FC:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_multiplexer.vhd
+l0
+L5
+VmMa1EAPUkZN_Ke:]CZM@j2
+R7
+32
+Z73 !s108 1580425004.457000
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_multiplexer.vhd|
+Z75 !s107 C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_multiplexer.vhd|
+R11
+R12
+!s100 c2jgM4PcL<h[<5NC:UTPA3
+!i10b 1
+Asim
+R1
+R2
+R3
+DEx4 work 14 tb_multiplexer 0 22 mMa1EAPUkZN_Ke:]CZM@j2
+l30
+L8
+VVMmbIibhab5ld<jjkF0Dc3
+R7
+32
+R73
+R74
+R75
+R11
+R12
+!s100 FJoa`GJa?2?LBL2IQ25Ge3
+!i10b 1
+Etb_pravdivostni_tabulka
+Z76 w1580296115
+R1
+R2
+R3
+R4
+Z77 8C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_pravdivostni_tabulka.vhdl
+Z78 FC:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_pravdivostni_tabulka.vhdl
+l0
+L5
+Vom[YLAJ5VEmlZE@Zhe7eW1
+R7
+32
+Z79 !s108 1580425005.622000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_pravdivostni_tabulka.vhdl|
+Z81 !s107 C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_pravdivostni_tabulka.vhdl|
+R11
+R12
+!s100 iVV?cW1_h]AX5[G41ec641
+!i10b 1
+Asim
+R1
+R2
+R3
+DEx4 work 23 tb_pravdivostni_tabulka 0 22 om[YLAJ5VEmlZE@Zhe7eW1
+l30
+L8
+VhDY:ELmj6Kh5GQUzPPdiB2
+!s100 ;oX`>l:eXLo_CYEZ_16^M0
+R7
+32
+R79
+R80
+R81
+R11
+R12
+!i10b 1
+Etb_rs
+Z82 w1580298919
+R1
+R2
+R3
+R4
+Z83 8C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\tb_rs.vhdl
+Z84 FC:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\tb_rs.vhdl
+l0
+L6
+V:F]H?8X=G58h<29UJhZah2
+R7
+32
+Z85 !s108 1580299679.536000
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\tb_rs.vhdl|
+Z87 !s107 C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\tb_rs.vhdl|
+R11
+R12
+!s100 cmC1J<COLiP61eOU1obH20
+!i10b 1
+Asim
+R1
+R2
+R3
+DEx4 work 5 tb_rs 0 22 :F]H?8X=G58h<29UJhZah2
+l25
+L9
+VX[>8gD3Y_AJPikY1Z8XJG2
+R7
+32
+R85
+R86
+R87
+R11
+R12
+!s100 :PzXE5cdlEX8iJTmDcDch0
+!i10b 1

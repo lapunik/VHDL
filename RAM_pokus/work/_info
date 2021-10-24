@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA
+Eram
+Z0 w1580425888
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Lapunik\Dropbox\VHDL\RAM_pokus
+Z5 8C:/Users/Lapunik/Dropbox/VHDL/RAM_pokus/RAM.vhdl
+Z6 FC:/Users/Lapunik/Dropbox/VHDL/RAM_pokus/RAM.vhdl
+l0
+L5
+V4`SnC:Mn<=Hb>I@ITe?PV3
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1580471765.849000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/RAM_pokus/RAM.vhdl|
+Z10 !s107 C:/Users/Lapunik/Dropbox/VHDL/RAM_pokus/RAM.vhdl|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 Jz:o_MkoIWAdF6C95]aRo1
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 3 ram 0 22 4`SnC:Mn<=Hb>I@ITe?PV3
+l21
+L19
+Vg5=PbE2zNDNRi0k3e]HWJ0
+!s100 U1M8Eo0c`[9zB9XURMD_R1
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!i10b 1
+Etb_ram
+Z13 w1580471762
+R1
+R2
+R3
+R4
+Z14 8C:/Users/Lapunik/Dropbox/VHDL/RAM_pokus/tb_RAM.vhdl
+Z15 FC:/Users/Lapunik/Dropbox/VHDL/RAM_pokus/tb_RAM.vhdl
+l0
+L5
+V1EZhW5^6fofI7OFFA0ggK1
+!s100 UG3dECE:jQRa]?=[QD2Tc3
+R7
+32
+!i10b 1
+Z16 !s108 1580471765.991000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Lapunik/Dropbox/VHDL/RAM_pokus/tb_RAM.vhdl|
+Z18 !s107 C:/Users/Lapunik/Dropbox/VHDL/RAM_pokus/tb_RAM.vhdl|
+R11
+R12
+Asim
+R1
+R2
+R3
+Z19 DEx4 work 6 tb_ram 0 22 1EZhW5^6fofI7OFFA0ggK1
+l35
+L8
+V@XRj2fK;NO>7gLgkCzULG3
+!s100 G1Uz[f9dUADA6e`Bi`8I52
+R7
+32
+!i10b 1
+R16
+R17
+R18
+R11
+R12

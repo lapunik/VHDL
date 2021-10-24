@@ -1,0 +1,27 @@
+C:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/dds_gen_avl.vhd {1 {vcom -work work -2008 -explicit {C:\Users\Lapunik\Dropbox\VHDL\ACZS\DDS_Generator\dds_gen_avl.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dds_gen_avl
+-- Compiling architecture rtl of dds_gen_avl
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/dds_logic.vhd {1 {vcom -work work -2002 -explicit C:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/dds_logic.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dds_logic
+-- Compiling architecture rtl of dds_logic
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/sig_rom.vhd {1 {vcom -work work -2002 -explicit C:/Users/Lapunik/Dropbox/VHDL/ACZS/DDS_Generator/sig_rom.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sig_rom
+-- Compiling architecture SYN of sig_rom
+
+} {} {}}

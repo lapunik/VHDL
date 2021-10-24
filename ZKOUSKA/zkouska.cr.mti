@@ -1,0 +1,3089 @@
+C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/multiplexer.vhdl {0 {vcom -work work -2002 -explicit {C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\multiplexer.vhdl}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+-- Giving up waiting on lock. Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+** Error: VHDL Compiler exiting
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+-- Giving up waiting on lock. Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+** Error: VHDL Compiler exiting
+
+} {1162.0 1163.0 1188.0 1189.0} {}} C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_mealy.vhdl {1 {vcom -work work -2002 -explicit C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_mealy.vhdl
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_mealy
+-- Compiling architecture sim of tb_mealy
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/mealy.vhdl {1 {vcom -work work -2002 -explicit C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/mealy.vhdl
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mealy
+-- Compiling architecture rtl of mealy
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/fibbonachi_generator.vhdl {0 {vcom -work work -2002 -explicit C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/fibbonachi_generator.vhdl
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+-- Giving up waiting on lock. Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+** Error: VHDL Compiler exiting
+
+} {607.0 608.0} {}} C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_multiplexer.vhd {0 {vcom -work work -2002 -explicit {C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\tb_multiplexer.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+-- Giving up waiting on lock. Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+** Error: VHDL Compiler exiting
+
+} {607.0 608.0} {}} C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/pravdivostni_tabulka.vhdl {1 {vcom -work work -2002 -explicit C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/pravdivostni_tabulka.vhdl
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pravdivostni_tabulka
+-- Compiling architecture rtl of pravdivostni_tabulka
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/rs.vhdl {2 {vcom -work work -2002 -explicit C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/rs.vhdl
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rs
+-- Compiling architecture rtl of rs
+** Warning: (vcom-31) Unable to unlink file "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+Permission denied. (errno = EACCES)
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/JK.vhdl {1 {vcom -work work -2002 -explicit {C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\JK.vhdl}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity JK
+-- Compiling architecture rtl of JK
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_fibbonachi_generator.vhdl {0 {vcom -work work -2002 -explicit C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_fibbonachi_generator.vhdl
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+** Warning: (vcom-6) -- Waiting for lock by "Lapunik@DESKTOP-GT5L5G8, pid = 11444
+". Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+
+-- Giving up waiting on lock. Lockfile is "C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/work/_lock".
+** Error: VHDL Compiler exiting
+
+} {607.0 608.0} {}} C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_pravdivostni_tabulka.vhdl {1 {vcom -work work -2002 -explicit C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_pravdivostni_tabulka.vhdl
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_pravdivostni_tabulka
+-- Compiling architecture sim of tb_pravdivostni_tabulka
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_JK.vhdl {1 {vcom -work work -2002 -explicit {C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\tb_JK.vhdl}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_JK
+-- Compiling architecture sim of tb_JK
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/ZKOUSKA/tb_rs.vhdl {1 {vcom -work work -2002 -explicit {C:\Users\Lapunik\Dropbox\VHDL\ZKOUSKA\tb_rs.vhdl}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_rs
+-- Compiling architecture sim of tb_rs
+
+} {} {}}

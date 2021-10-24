@@ -1,0 +1,19 @@
+fclk = 50 * 10^6 [Hz] (Hodinová frekvence)
+M = 32 (Rozličení fázového akumulátoru) 
+N = 12 (počet bitů výstupu fázového kvantizéru → adresa rom)
+R = 8 (počet bitů výstupu amplitudového kvantizéru → dálka slova)
+
+Frekvenční rozlišení číslicového generátoru:
+fres = fclk/(2^M) = (50*(10^6))/(2^32) = 0,0116415 [Hz]
+
+Maximální dosažitelná frekvence (aby byly aspoň dva vzorky na periodu (alespoň polovina fclk, spíš ale tak fclk/2,5)):
+fmax = ((2^(M-1))*fclk)/(2^M) = ((2^(32-1))*(50*(10^6)))/(2^32) = 25 * 10^6 [Hz] (polovina fclk, to docela dává smysl)
+
+Spurious Free Dynamic Range (SFDR) (Poměr síly základního signálu k nejsilnějšímu rušivému signálu)
+Smax = -SFDR = -6,02*N + 3,992 = -6,02*12 + 3,992 = -68,248 [dBc]
+
+Odstup šumu od výstupního signálu:
+NSR = -SNR = -6,02*R - 1,761 = -49,921 [dBc]
+
+Potřebná velikost paměti pro realizaci amplitudového kvantizéru
+MS = (2^N)*R = (2^12)*8 = 32768 [bit]

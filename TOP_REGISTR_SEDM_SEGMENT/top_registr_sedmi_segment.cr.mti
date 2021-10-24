@@ -1,0 +1,64 @@
+C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/registr_8bit_async.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/registr_8bit_async.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registr_8bit_async
+-- Compiling architecture rtl of registr_8bit_async
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/counter.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counter
+-- Compiling architecture rtl of counter
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/soucet_async.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/soucet_async.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity soucet_async
+-- Compiling architecture rtl of soucet_async
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/nasobicka_async.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/nasobicka_async.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity nasobicka_async
+-- Compiling architecture rtl of nasobicka_async
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/top_counter_sedmi_segment.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/top_counter_sedmi_segment.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top_counter_sedmi_segment
+-- Compiling architecture rtl of top_counter_sedmi_segment
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/sedmi_segment_async.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/sedmi_segment_async.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sedmi_segment_async
+-- Compiling architecture rtl of sedmi_segment_async
+
+} {} {}} C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/tb_top_counter_sedmi_segment.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT/tb_top_counter_sedmi_segment.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_top_counter_sedmi_segment
+-- Compiling architecture simulace of tb_top_counter_sedmi_segment
+
+} {} {}}

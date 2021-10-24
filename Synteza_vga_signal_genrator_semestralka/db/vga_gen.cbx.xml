@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="vga_gen">
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_gen|picture_generator:picture_generator1|rom:port_map_rom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_naa1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

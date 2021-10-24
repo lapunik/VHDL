@@ -1,0 +1,1113 @@
+TimeQuest Timing Analyzer report for sin_gen
+Mon Feb 24 13:05:37 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. SDC File List
+  5. Clocks
+  6. Slow Model Fmax Summary
+  7. Slow Model Setup Summary
+  8. Slow Model Hold Summary
+  9. Slow Model Recovery Summary
+ 10. Slow Model Removal Summary
+ 11. Slow Model Minimum Pulse Width Summary
+ 12. Slow Model Setup: 'clk'
+ 13. Slow Model Hold: 'clk'
+ 14. Slow Model Minimum Pulse Width: 'clk'
+ 15. Slow Model Minimum Pulse Width: 'altera_reserved_tck'
+ 16. Clock to Output Times
+ 17. Minimum Clock to Output Times
+ 18. Fast Model Setup Summary
+ 19. Fast Model Hold Summary
+ 20. Fast Model Recovery Summary
+ 21. Fast Model Removal Summary
+ 22. Fast Model Minimum Pulse Width Summary
+ 23. Fast Model Setup: 'clk'
+ 24. Fast Model Hold: 'clk'
+ 25. Fast Model Minimum Pulse Width: 'clk'
+ 26. Fast Model Minimum Pulse Width: 'altera_reserved_tck'
+ 27. Clock to Output Times
+ 28. Minimum Clock to Output Times
+ 29. Multicorner Timing Analysis Summary
+ 30. Clock to Output Times
+ 31. Minimum Clock to Output Times
+ 32. Setup Transfers
+ 33. Hold Transfers
+ 34. Report TCCS
+ 35. Report RSKM
+ 36. Unconstrained Paths
+ 37. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; sin_gen                                                           ;
+; Device Family      ; Cyclone II                                                        ;
+; Device Name        ; EP2C35F672C6                                                      ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++---------------------------------------------------+
+; SDC File List                                     ;
++---------------+--------+--------------------------+
+; SDC File Path ; Status ; Read at                  ;
++---------------+--------+--------------------------+
+; SDC.sdc       ; OK     ; Mon Feb 24 13:05:37 2020 ;
++---------------+--------+--------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                                                    ;
++---------------------+------+---------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-------------------------+
+; Clock Name          ; Type ; Period  ; Frequency ; Rise  ; Fall   ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets                 ;
++---------------------+------+---------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-------------------------+
+; altera_reserved_tck ; Base ; 100.000 ; 10.0 MHz  ; 0.000 ; 50.000 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { altera_reserved_tck } ;
+; clk                 ; Base ; 20.000  ; 50.0 MHz  ; 0.000 ; 10.000 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { clk }                 ;
++---------------------+------+---------+-----------+-------+--------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Slow Model Fmax Summary                                                                          ;
++-----------+-----------------+------------+-------------------------------------------------------+
+; Fmax      ; Restricted Fmax ; Clock Name ; Note                                                  ;
++-----------+-----------------+------------+-------------------------------------------------------+
+; 254.0 MHz ; 163.03 MHz      ; clk        ; limit due to high minimum pulse width violation (tch) ;
++-----------+-----------------+------------+-------------------------------------------------------+
+This panel reports FMAX for every clock in the design, regardless of the user-specified clock periods.  FMAX is only computed for paths where the source and destination registers or ports are driven by the same clock.  Paths of different clocks, including generated clocks, are ignored.  For paths between a clock and its inversion, FMAX is computed as if the rising and falling edges are scaled along with FMAX, such that the duty cycle (in terms of a percentage) is maintained. Altera recommends that you always use clock constraints and other slack reports for sign-off analysis.
+
+
++--------------------------------+
+; Slow Model Setup Summary       ;
++-------+--------+---------------+
+; Clock ; Slack  ; End Point TNS ;
++-------+--------+---------------+
+; clk   ; 16.063 ; 0.000         ;
++-------+--------+---------------+
+
+
++-------------------------------+
+; Slow Model Hold Summary       ;
++-------+-------+---------------+
+; Clock ; Slack ; End Point TNS ;
++-------+-------+---------------+
+; clk   ; 0.531 ; 0.000         ;
++-------+-------+---------------+
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
++----------------------------------------------+
+; Slow Model Minimum Pulse Width Summary       ;
++---------------------+--------+---------------+
+; Clock               ; Slack  ; End Point TNS ;
++---------------------+--------+---------------+
+; clk                 ; 6.933  ; 0.000         ;
+; altera_reserved_tck ; 97.778 ; 0.000         ;
++---------------------+--------+---------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Model Setup: 'clk'                                                                                                                                                                                                                   ;
++--------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack  ; From Node      ; To Node                                                                                                                                   ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 16.063 ; acumulator[1]  ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.980      ;
+; 16.132 ; acumulator[2]  ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.911      ;
+; 16.134 ; acumulator[1]  ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.909      ;
+; 16.203 ; acumulator[2]  ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.840      ;
+; 16.205 ; acumulator[1]  ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.838      ;
+; 16.208 ; acumulator[0]  ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.835      ;
+; 16.273 ; acumulator[4]  ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.770      ;
+; 16.274 ; acumulator[2]  ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.769      ;
+; 16.276 ; acumulator[1]  ; acumulator[28]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.767      ;
+; 16.279 ; acumulator[0]  ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.764      ;
+; 16.344 ; acumulator[4]  ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.699      ;
+; 16.345 ; acumulator[2]  ; acumulator[28]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.698      ;
+; 16.347 ; acumulator[1]  ; acumulator[27]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.696      ;
+; 16.350 ; acumulator[0]  ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.693      ;
+; 16.353 ; acumulator[30] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg10 ; clk          ; clk         ; 20.000       ; 0.018      ; 3.630      ;
+; 16.366 ; acumulator[30] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg10 ; clk          ; clk         ; 20.000       ; 0.047      ; 3.646      ;
+; 16.367 ; acumulator[22] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg2  ; clk          ; clk         ; 20.000       ; 0.061      ; 3.659      ;
+; 16.369 ; acumulator[22] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg2  ; clk          ; clk         ; 20.000       ; 0.018      ; 3.614      ;
+; 16.370 ; acumulator[30] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg10 ; clk          ; clk         ; 20.000       ; 0.028      ; 3.623      ;
+; 16.376 ; acumulator[30] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg10 ; clk          ; clk         ; 20.000       ; 0.042      ; 3.631      ;
+; 16.385 ; acumulator[3]  ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.658      ;
+; 16.415 ; acumulator[4]  ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.628      ;
+; 16.416 ; acumulator[2]  ; acumulator[27]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.627      ;
+; 16.418 ; acumulator[1]  ; acumulator[26]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.625      ;
+; 16.421 ; acumulator[0]  ; acumulator[28]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.622      ;
+; 16.442 ; acumulator[31] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg11 ; clk          ; clk         ; 20.000       ; 0.018      ; 3.541      ;
+; 16.448 ; acumulator[20] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg0  ; clk          ; clk         ; 20.000       ; 0.047      ; 3.564      ;
+; 16.456 ; acumulator[3]  ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.587      ;
+; 16.462 ; acumulator[20] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg0  ; clk          ; clk         ; 20.000       ; 0.042      ; 3.545      ;
+; 16.486 ; acumulator[4]  ; acumulator[28]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.557      ;
+; 16.487 ; acumulator[2]  ; acumulator[26]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.556      ;
+; 16.489 ; acumulator[1]  ; acumulator[25]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.554      ;
+; 16.492 ; acumulator[0]  ; acumulator[27]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.551      ;
+; 16.526 ; acumulator[5]  ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.517      ;
+; 16.527 ; acumulator[3]  ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.516      ;
+; 16.530 ; acumulator[29] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg9  ; clk          ; clk         ; 20.000       ; 0.047      ; 3.482      ;
+; 16.544 ; acumulator[23] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg3  ; clk          ; clk         ; 20.000       ; 0.042      ; 3.463      ;
+; 16.547 ; acumulator[23] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg3  ; clk          ; clk         ; 20.000       ; 0.028      ; 3.446      ;
+; 16.552 ; acumulator[23] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg3  ; clk          ; clk         ; 20.000       ; 0.047      ; 3.460      ;
+; 16.555 ; acumulator[23] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg3  ; clk          ; clk         ; 20.000       ; 0.035      ; 3.445      ;
+; 16.557 ; acumulator[4]  ; acumulator[27]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.486      ;
+; 16.558 ; acumulator[2]  ; acumulator[25]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.485      ;
+; 16.560 ; acumulator[1]  ; acumulator[24]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.483      ;
+; 16.563 ; acumulator[0]  ; acumulator[26]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.480      ;
+; 16.597 ; acumulator[6]  ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.446      ;
+; 16.597 ; acumulator[5]  ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.446      ;
+; 16.598 ; acumulator[3]  ; acumulator[28]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.445      ;
+; 16.619 ; acumulator[24] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg4  ; clk          ; clk         ; 20.000       ; 0.018      ; 3.364      ;
+; 16.628 ; acumulator[4]  ; acumulator[26]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.415      ;
+; 16.629 ; acumulator[2]  ; acumulator[24]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.414      ;
+; 16.634 ; acumulator[0]  ; acumulator[25]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.409      ;
+; 16.635 ; acumulator[24] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg4  ; clk          ; clk         ; 20.000       ; 0.028      ; 3.358      ;
+; 16.653 ; acumulator[24] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg4  ; clk          ; clk         ; 20.000       ; 0.035      ; 3.347      ;
+; 16.659 ; acumulator[22] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg2  ; clk          ; clk         ; 20.000       ; 0.042      ; 3.348      ;
+; 16.667 ; acumulator[22] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg2  ; clk          ; clk         ; 20.000       ; 0.028      ; 3.326      ;
+; 16.668 ; acumulator[6]  ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.375      ;
+; 16.668 ; acumulator[5]  ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.375      ;
+; 16.669 ; acumulator[3]  ; acumulator[27]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.374      ;
+; 16.688 ; acumulator[30] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg10 ; clk          ; clk         ; 20.000       ; 0.035      ; 3.312      ;
+; 16.688 ; acumulator[22] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg2  ; clk          ; clk         ; 20.000       ; 0.035      ; 3.312      ;
+; 16.693 ; acumulator[22] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg2  ; clk          ; clk         ; 20.000       ; 0.047      ; 3.319      ;
+; 16.695 ; acumulator[25] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg5  ; clk          ; clk         ; 20.000       ; 0.047      ; 3.317      ;
+; 16.695 ; acumulator[20] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg0  ; clk          ; clk         ; 20.000       ; 0.035      ; 3.305      ;
+; 16.696 ; acumulator[25] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg5  ; clk          ; clk         ; 20.000       ; 0.042      ; 3.311      ;
+; 16.698 ; acumulator[22] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg2  ; clk          ; clk         ; 20.000       ; 0.042      ; 3.309      ;
+; 16.699 ; acumulator[4]  ; acumulator[25]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.344      ;
+; 16.700 ; acumulator[25] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg5  ; clk          ; clk         ; 20.000       ; 0.035      ; 3.300      ;
+; 16.702 ; acumulator[29] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg9  ; clk          ; clk         ; 20.000       ; 0.042      ; 3.305      ;
+; 16.705 ; acumulator[0]  ; acumulator[24]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.338      ;
+; 16.711 ; acumulator[7]  ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.332      ;
+; 16.719 ; acumulator[1]  ; acumulator[23]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.324      ;
+; 16.720 ; acumulator[25] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg5  ; clk          ; clk         ; 20.000       ; 0.028      ; 3.273      ;
+; 16.726 ; acumulator[20] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg0  ; clk          ; clk         ; 20.000       ; 0.028      ; 3.267      ;
+; 16.731 ; acumulator[27] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg7  ; clk          ; clk         ; 20.000       ; 0.042      ; 3.276      ;
+; 16.738 ; acumulator[29] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg9  ; clk          ; clk         ; 20.000       ; 0.035      ; 3.262      ;
+; 16.739 ; acumulator[6]  ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.304      ;
+; 16.739 ; acumulator[5]  ; acumulator[28]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.304      ;
+; 16.740 ; acumulator[3]  ; acumulator[26]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.303      ;
+; 16.743 ; acumulator[28] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg8  ; clk          ; clk         ; 20.000       ; 0.042      ; 3.264      ;
+; 16.745 ; acumulator[27] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg7  ; clk          ; clk         ; 20.000       ; 0.035      ; 3.255      ;
+; 16.747 ; acumulator[28] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg8  ; clk          ; clk         ; 20.000       ; 0.035      ; 3.253      ;
+; 16.749 ; acumulator[27] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg7  ; clk          ; clk         ; 20.000       ; 0.047      ; 3.263      ;
+; 16.752 ; acumulator[28] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg8  ; clk          ; clk         ; 20.000       ; 0.047      ; 3.260      ;
+; 16.755 ; acumulator[27] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg7  ; clk          ; clk         ; 20.000       ; 0.028      ; 3.238      ;
+; 16.759 ; acumulator[31] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg11 ; clk          ; clk         ; 20.000       ; 0.035      ; 3.241      ;
+; 16.759 ; acumulator[21] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg1  ; clk          ; clk         ; 20.000       ; 0.035      ; 3.241      ;
+; 16.764 ; acumulator[29] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg9  ; clk          ; clk         ; 20.000       ; 0.028      ; 3.229      ;
+; 16.765 ; acumulator[31] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg11 ; clk          ; clk         ; 20.000       ; 0.047      ; 3.247      ;
+; 16.770 ; acumulator[31] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg11 ; clk          ; clk         ; 20.000       ; 0.042      ; 3.237      ;
+; 16.770 ; acumulator[4]  ; acumulator[24]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.273      ;
+; 16.775 ; acumulator[28] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg8  ; clk          ; clk         ; 20.000       ; 0.028      ; 3.218      ;
+; 16.782 ; acumulator[7]  ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.261      ;
+; 16.783 ; acumulator[26] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg6  ; clk          ; clk         ; 20.000       ; 0.028      ; 3.210      ;
+; 16.783 ; acumulator[26] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg6  ; clk          ; clk         ; 20.000       ; 0.035      ; 3.217      ;
+; 16.787 ; acumulator[26] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg6  ; clk          ; clk         ; 20.000       ; 0.047      ; 3.225      ;
+; 16.788 ; acumulator[2]  ; acumulator[23]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.255      ;
+; 16.790 ; acumulator[1]  ; acumulator[22]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.253      ;
+; 16.810 ; acumulator[6]  ; acumulator[28]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.233      ;
+; 16.810 ; acumulator[5]  ; acumulator[27]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.233      ;
+; 16.811 ; acumulator[3]  ; acumulator[25]                                                                                                                            ; clk          ; clk         ; 20.000       ; 0.007      ; 3.232      ;
++--------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Model Hold: 'clk'                                                                                                                                                                                                                   ;
++-------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node      ; To Node                                                                                                                                   ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 0.531 ; acumulator[31] ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.797      ;
+; 0.791 ; acumulator[7]  ; acumulator[7]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.057      ;
+; 0.797 ; acumulator[9]  ; acumulator[9]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.063      ;
+; 0.798 ; acumulator[11] ; acumulator[11]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.064      ;
+; 0.801 ; acumulator[17] ; acumulator[17]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.067      ;
+; 0.801 ; acumulator[16] ; acumulator[16]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.067      ;
+; 0.802 ; acumulator[23] ; acumulator[23]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.068      ;
+; 0.802 ; acumulator[15] ; acumulator[15]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.068      ;
+; 0.802 ; acumulator[13] ; acumulator[13]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.068      ;
+; 0.805 ; acumulator[0]  ; acumulator[0]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.071      ;
+; 0.806 ; acumulator[29] ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.072      ;
+; 0.806 ; acumulator[27] ; acumulator[27]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.072      ;
+; 0.806 ; acumulator[25] ; acumulator[25]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.072      ;
+; 0.806 ; acumulator[20] ; acumulator[20]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.072      ;
+; 0.806 ; acumulator[18] ; acumulator[18]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.072      ;
+; 0.806 ; acumulator[14] ; acumulator[14]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.072      ;
+; 0.814 ; acumulator[30] ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.080      ;
+; 0.838 ; acumulator[28] ; acumulator[28]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.104      ;
+; 0.838 ; acumulator[24] ; acumulator[24]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.104      ;
+; 0.838 ; acumulator[19] ; acumulator[19]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.104      ;
+; 0.838 ; acumulator[12] ; acumulator[12]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.104      ;
+; 0.838 ; acumulator[10] ; acumulator[10]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.104      ;
+; 0.838 ; acumulator[8]  ; acumulator[8]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.104      ;
+; 0.838 ; acumulator[3]  ; acumulator[3]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.104      ;
+; 0.839 ; acumulator[22] ; acumulator[22]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.105      ;
+; 0.839 ; acumulator[21] ; acumulator[21]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.105      ;
+; 0.839 ; acumulator[6]  ; acumulator[6]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.105      ;
+; 0.839 ; acumulator[5]  ; acumulator[5]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.105      ;
+; 0.846 ; acumulator[26] ; acumulator[26]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.112      ;
+; 0.955 ; acumulator[25] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg5  ; clk          ; clk         ; 0.000        ; 0.056      ; 1.245      ;
+; 0.957 ; acumulator[26] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg6  ; clk          ; clk         ; 0.000        ; 0.056      ; 1.247      ;
+; 0.958 ; acumulator[24] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg4  ; clk          ; clk         ; 0.000        ; 0.056      ; 1.248      ;
+; 0.960 ; acumulator[27] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg7  ; clk          ; clk         ; 0.000        ; 0.056      ; 1.250      ;
+; 0.967 ; acumulator[21] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg1  ; clk          ; clk         ; 0.000        ; 0.056      ; 1.257      ;
+; 0.982 ; acumulator[20] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg0  ; clk          ; clk         ; 0.000        ; 0.056      ; 1.272      ;
+; 0.989 ; acumulator[31] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg11 ; clk          ; clk         ; 0.000        ; 0.056      ; 1.279      ;
+; 1.013 ; acumulator[30] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg10 ; clk          ; clk         ; 0.000        ; 0.056      ; 1.303      ;
+; 1.018 ; acumulator[1]  ; acumulator[1]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.284      ;
+; 1.020 ; acumulator[2]  ; acumulator[2]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.286      ;
+; 1.021 ; acumulator[4]  ; acumulator[4]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.287      ;
+; 1.021 ; acumulator[22] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg2  ; clk          ; clk         ; 0.000        ; 0.056      ; 1.311      ;
+; 1.043 ; acumulator[23] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg3  ; clk          ; clk         ; 0.000        ; 0.056      ; 1.333      ;
+; 1.184 ; acumulator[16] ; acumulator[17]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.450      ;
+; 1.184 ; acumulator[9]  ; acumulator[10]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.450      ;
+; 1.185 ; acumulator[11] ; acumulator[12]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.451      ;
+; 1.188 ; acumulator[17] ; acumulator[18]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.454      ;
+; 1.188 ; acumulator[0]  ; acumulator[1]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.454      ;
+; 1.189 ; acumulator[14] ; acumulator[15]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.455      ;
+; 1.189 ; acumulator[13] ; acumulator[14]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.455      ;
+; 1.189 ; acumulator[29] ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.455      ;
+; 1.189 ; acumulator[27] ; acumulator[28]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.455      ;
+; 1.189 ; acumulator[18] ; acumulator[19]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.455      ;
+; 1.189 ; acumulator[20] ; acumulator[21]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.455      ;
+; 1.189 ; acumulator[25] ; acumulator[26]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.455      ;
+; 1.197 ; acumulator[30] ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.463      ;
+; 1.224 ; acumulator[20] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg0  ; clk          ; clk         ; 0.000        ; 0.061      ; 1.519      ;
+; 1.224 ; acumulator[8]  ; acumulator[9]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.490      ;
+; 1.224 ; acumulator[10] ; acumulator[11]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.490      ;
+; 1.224 ; acumulator[12] ; acumulator[13]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.490      ;
+; 1.224 ; acumulator[28] ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.490      ;
+; 1.224 ; acumulator[24] ; acumulator[25]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.490      ;
+; 1.224 ; acumulator[19] ; acumulator[20]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.490      ;
+; 1.224 ; acumulator[3]  ; acumulator[4]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.490      ;
+; 1.225 ; acumulator[24] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg4  ; clk          ; clk         ; 0.000        ; 0.061      ; 1.520      ;
+; 1.225 ; acumulator[6]  ; acumulator[7]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.491      ;
+; 1.225 ; acumulator[22] ; acumulator[23]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.491      ;
+; 1.225 ; acumulator[21] ; acumulator[22]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.491      ;
+; 1.225 ; acumulator[5]  ; acumulator[6]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.491      ;
+; 1.232 ; acumulator[26] ; acumulator[27]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.498      ;
+; 1.245 ; acumulator[23] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg3  ; clk          ; clk         ; 0.000        ; 0.061      ; 1.540      ;
+; 1.246 ; acumulator[31] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg11 ; clk          ; clk         ; 0.000        ; 0.061      ; 1.541      ;
+; 1.252 ; acumulator[30] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg10 ; clk          ; clk         ; 0.000        ; 0.061      ; 1.547      ;
+; 1.255 ; acumulator[16] ; acumulator[18]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.521      ;
+; 1.255 ; acumulator[9]  ; acumulator[11]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.521      ;
+; 1.256 ; acumulator[11] ; acumulator[13]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.522      ;
+; 1.259 ; acumulator[26] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg6  ; clk          ; clk         ; 0.000        ; 0.049      ; 1.542      ;
+; 1.259 ; acumulator[0]  ; acumulator[2]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.525      ;
+; 1.259 ; acumulator[17] ; acumulator[19]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.525      ;
+; 1.260 ; acumulator[30] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg10 ; clk          ; clk         ; 0.000        ; 0.049      ; 1.543      ;
+; 1.260 ; acumulator[24] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg4  ; clk          ; clk         ; 0.000        ; 0.049      ; 1.543      ;
+; 1.260 ; acumulator[13] ; acumulator[15]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.526      ;
+; 1.260 ; acumulator[29] ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.526      ;
+; 1.260 ; acumulator[27] ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.526      ;
+; 1.260 ; acumulator[18] ; acumulator[20]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.526      ;
+; 1.260 ; acumulator[20] ; acumulator[22]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.526      ;
+; 1.260 ; acumulator[25] ; acumulator[27]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.526      ;
+; 1.263 ; acumulator[21] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg1  ; clk          ; clk         ; 0.000        ; 0.049      ; 1.546      ;
+; 1.264 ; acumulator[26] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg6  ; clk          ; clk         ; 0.000        ; 0.061      ; 1.559      ;
+; 1.270 ; acumulator[7]  ; acumulator[8]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.536      ;
+; 1.273 ; acumulator[20] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg0  ; clk          ; clk         ; 0.000        ; 0.049      ; 1.556      ;
+; 1.274 ; acumulator[15] ; acumulator[16]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.007      ; 1.547      ;
+; 1.276 ; acumulator[31] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg11 ; clk          ; clk         ; 0.000        ; 0.049      ; 1.559      ;
+; 1.277 ; acumulator[29] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg9  ; clk          ; clk         ; 0.000        ; 0.042      ; 1.553      ;
+; 1.280 ; acumulator[24] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg4  ; clk          ; clk         ; 0.000        ; 0.042      ; 1.556      ;
+; 1.280 ; acumulator[27] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg7  ; clk          ; clk         ; 0.000        ; 0.049      ; 1.563      ;
+; 1.281 ; acumulator[23] ; acumulator[24]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.547      ;
+; 1.287 ; acumulator[22] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg2  ; clk          ; clk         ; 0.000        ; 0.049      ; 1.570      ;
+; 1.288 ; acumulator[30] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg10 ; clk          ; clk         ; 0.000        ; 0.042      ; 1.564      ;
+; 1.295 ; acumulator[3]  ; acumulator[5]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 1.561      ;
+; 1.295 ; acumulator[8]  ; acumulator[10]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 1.561      ;
++-------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Slow Model Minimum Pulse Width: 'clk'                                                                                                                                                                                     ;
++-------+--------------+----------------+------------------+-------+------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+; Slack ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                                                                                                                                    ;
++-------+--------------+----------------+------------------+-------+------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[0]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[0]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[2]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[2]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg2  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg2  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg3  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg3  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg4  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg4  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg5  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg5  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg6  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg6  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg7  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg7  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg8  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg8  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg9  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg9  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg2  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg2  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg3  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg3  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg4  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg4  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg5  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg5  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg6  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg6  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg7  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg7  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg8  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg8  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg9  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg9  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg2  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg2  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg3  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg3  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg4  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg4  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg5  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg5  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg6  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg6  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg7  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg7  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg8  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg8  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg9  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg9  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg11 ;
++-------+--------------+----------------+------------------+-------+------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Slow Model Minimum Pulse Width: 'altera_reserved_tck'                                                       ;
++--------+--------------+----------------+-----------+---------------------+------------+---------------------+
+; Slack  ; Actual Width ; Required Width ; Type      ; Clock               ; Clock Edge ; Target              ;
++--------+--------------+----------------+-----------+---------------------+------------+---------------------+
+; 97.778 ; 100.000      ; 2.222          ; Port Rate ; altera_reserved_tck ; Rise       ; altera_reserved_tck ;
++--------+--------------+----------------+-----------+---------------------+------------+---------------------+
+
+
++-----------------------------------------------------------------------+
+; Clock to Output Times                                                 ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; vga_clk   ; clk        ; 5.541 ; 5.541 ; Rise       ; clk             ;
+; vga_r[*]  ; clk        ; 9.218 ; 9.218 ; Rise       ; clk             ;
+;  vga_r[0] ; clk        ; 7.682 ; 7.682 ; Rise       ; clk             ;
+;  vga_r[1] ; clk        ; 8.789 ; 8.789 ; Rise       ; clk             ;
+;  vga_r[2] ; clk        ; 9.218 ; 9.218 ; Rise       ; clk             ;
+;  vga_r[3] ; clk        ; 9.004 ; 9.004 ; Rise       ; clk             ;
+;  vga_r[4] ; clk        ; 7.635 ; 7.635 ; Rise       ; clk             ;
+;  vga_r[5] ; clk        ; 8.421 ; 8.421 ; Rise       ; clk             ;
+;  vga_r[6] ; clk        ; 7.722 ; 7.722 ; Rise       ; clk             ;
+;  vga_r[7] ; clk        ; 7.478 ; 7.478 ; Rise       ; clk             ;
+;  vga_r[8] ; clk        ; 8.912 ; 8.912 ; Rise       ; clk             ;
+;  vga_r[9] ; clk        ; 7.391 ; 7.391 ; Rise       ; clk             ;
+; vga_clk   ; clk        ; 5.541 ; 5.541 ; Fall       ; clk             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Clock to Output Times                                         ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; vga_clk   ; clk        ; 5.541 ; 5.541 ; Rise       ; clk             ;
+; vga_r[*]  ; clk        ; 7.391 ; 7.391 ; Rise       ; clk             ;
+;  vga_r[0] ; clk        ; 7.682 ; 7.682 ; Rise       ; clk             ;
+;  vga_r[1] ; clk        ; 8.789 ; 8.789 ; Rise       ; clk             ;
+;  vga_r[2] ; clk        ; 9.218 ; 9.218 ; Rise       ; clk             ;
+;  vga_r[3] ; clk        ; 9.004 ; 9.004 ; Rise       ; clk             ;
+;  vga_r[4] ; clk        ; 7.635 ; 7.635 ; Rise       ; clk             ;
+;  vga_r[5] ; clk        ; 8.421 ; 8.421 ; Rise       ; clk             ;
+;  vga_r[6] ; clk        ; 7.722 ; 7.722 ; Rise       ; clk             ;
+;  vga_r[7] ; clk        ; 7.478 ; 7.478 ; Rise       ; clk             ;
+;  vga_r[8] ; clk        ; 8.912 ; 8.912 ; Rise       ; clk             ;
+;  vga_r[9] ; clk        ; 7.391 ; 7.391 ; Rise       ; clk             ;
+; vga_clk   ; clk        ; 5.541 ; 5.541 ; Fall       ; clk             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------+
+; Fast Model Setup Summary       ;
++-------+--------+---------------+
+; Clock ; Slack  ; End Point TNS ;
++-------+--------+---------------+
+; clk   ; 18.021 ; 0.000         ;
++-------+--------+---------------+
+
+
++-------------------------------+
+; Fast Model Hold Summary       ;
++-------+-------+---------------+
+; Clock ; Slack ; End Point TNS ;
++-------+-------+---------------+
+; clk   ; 0.243 ; 0.000         ;
++-------+-------+---------------+
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
++----------------------------------------------+
+; Fast Model Minimum Pulse Width Summary       ;
++---------------------+--------+---------------+
+; Clock               ; Slack  ; End Point TNS ;
++---------------------+--------+---------------+
+; clk                 ; 6.933  ; 0.000         ;
+; altera_reserved_tck ; 97.778 ; 0.000         ;
++---------------------+--------+---------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Model Setup: 'clk'                                                                                                                                                                                                                                                                                                                    ;
++--------+-------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack  ; From Node                                                                                                                                 ; To Node                                                                                                         ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+-------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg0  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg1  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg2  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg3  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg4  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg5  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg6  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg7  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg8  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg9  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg10 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg11 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg0  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg1  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg2  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg3  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg4  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg5  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg6  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg7  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg8  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg9  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg10 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg11 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a4~porta_address_reg0  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a4~porta_address_reg1  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a4~porta_address_reg2  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a4~porta_address_reg3  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a4~porta_address_reg4  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a4~porta_address_reg5  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a4~porta_address_reg6  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a4~porta_address_reg7  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a4~porta_address_reg8  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a4~porta_address_reg9  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a4~porta_address_reg10 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a4~porta_address_reg11 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg0  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg1  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg2  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg3  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg4  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg5  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg6  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg7  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg8  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg9  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg10 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a5~porta_address_reg11 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg0  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg1  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg2  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg3  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg4  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg5  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg6  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg7  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg8  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg9  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg10 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg11 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg0  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg1  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg2  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg3  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg4  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg5  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg6  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg7  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg8  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg9  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg10 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg11 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg0  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg1  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg2  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg3  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg4  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg5  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg6  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg7  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg8  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg9  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg10 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a8~porta_address_reg11 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg0  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg1  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg2  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg3  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg4  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg5  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg6  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg7  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg8  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg9  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg10 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a9~porta_address_reg11 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg0  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[2] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg1  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[2] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg2  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[2] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
+; 18.021 ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg3  ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[2] ; clk          ; clk         ; 20.000       ; -0.018     ; 1.960      ;
++--------+-------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Model Hold: 'clk'                                                                                                                                                                                                                   ;
++-------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; Slack ; From Node      ; To Node                                                                                                                                   ; Launch Clock ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+; 0.243 ; acumulator[31] ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.395      ;
+; 0.356 ; acumulator[7]  ; acumulator[7]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.508      ;
+; 0.358 ; acumulator[16] ; acumulator[16]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.510      ;
+; 0.358 ; acumulator[11] ; acumulator[11]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.510      ;
+; 0.358 ; acumulator[9]  ; acumulator[9]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.510      ;
+; 0.359 ; acumulator[17] ; acumulator[17]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.511      ;
+; 0.360 ; acumulator[27] ; acumulator[27]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.512      ;
+; 0.360 ; acumulator[25] ; acumulator[25]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.512      ;
+; 0.360 ; acumulator[18] ; acumulator[18]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.512      ;
+; 0.361 ; acumulator[29] ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.513      ;
+; 0.361 ; acumulator[23] ; acumulator[23]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.513      ;
+; 0.361 ; acumulator[20] ; acumulator[20]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.513      ;
+; 0.361 ; acumulator[15] ; acumulator[15]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.513      ;
+; 0.361 ; acumulator[14] ; acumulator[14]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.513      ;
+; 0.361 ; acumulator[13] ; acumulator[13]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.513      ;
+; 0.362 ; acumulator[0]  ; acumulator[0]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.514      ;
+; 0.364 ; acumulator[30] ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.516      ;
+; 0.371 ; acumulator[24] ; acumulator[24]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.523      ;
+; 0.371 ; acumulator[19] ; acumulator[19]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.523      ;
+; 0.371 ; acumulator[10] ; acumulator[10]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.523      ;
+; 0.371 ; acumulator[8]  ; acumulator[8]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.523      ;
+; 0.371 ; acumulator[3]  ; acumulator[3]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.523      ;
+; 0.372 ; acumulator[28] ; acumulator[28]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.524      ;
+; 0.372 ; acumulator[22] ; acumulator[22]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.524      ;
+; 0.372 ; acumulator[21] ; acumulator[21]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.524      ;
+; 0.372 ; acumulator[12] ; acumulator[12]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.524      ;
+; 0.372 ; acumulator[6]  ; acumulator[6]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.524      ;
+; 0.372 ; acumulator[5]  ; acumulator[5]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.524      ;
+; 0.374 ; acumulator[26] ; acumulator[26]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.526      ;
+; 0.416 ; acumulator[25] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg5  ; clk          ; clk         ; 0.000        ; 0.061      ; 0.615      ;
+; 0.417 ; acumulator[26] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg6  ; clk          ; clk         ; 0.000        ; 0.061      ; 0.616      ;
+; 0.419 ; acumulator[24] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg4  ; clk          ; clk         ; 0.000        ; 0.061      ; 0.618      ;
+; 0.421 ; acumulator[27] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg7  ; clk          ; clk         ; 0.000        ; 0.061      ; 0.620      ;
+; 0.426 ; acumulator[21] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg1  ; clk          ; clk         ; 0.000        ; 0.061      ; 0.625      ;
+; 0.434 ; acumulator[20] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg0  ; clk          ; clk         ; 0.000        ; 0.061      ; 0.633      ;
+; 0.437 ; acumulator[31] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg11 ; clk          ; clk         ; 0.000        ; 0.061      ; 0.636      ;
+; 0.451 ; acumulator[1]  ; acumulator[1]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.603      ;
+; 0.451 ; acumulator[30] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg10 ; clk          ; clk         ; 0.000        ; 0.061      ; 0.650      ;
+; 0.454 ; acumulator[2]  ; acumulator[2]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.606      ;
+; 0.455 ; acumulator[4]  ; acumulator[4]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.607      ;
+; 0.459 ; acumulator[22] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg2  ; clk          ; clk         ; 0.000        ; 0.061      ; 0.658      ;
+; 0.473 ; acumulator[23] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a7~porta_address_reg3  ; clk          ; clk         ; 0.000        ; 0.061      ; 0.672      ;
+; 0.496 ; acumulator[16] ; acumulator[17]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.648      ;
+; 0.496 ; acumulator[9]  ; acumulator[10]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.648      ;
+; 0.496 ; acumulator[11] ; acumulator[12]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.648      ;
+; 0.497 ; acumulator[17] ; acumulator[18]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.649      ;
+; 0.497 ; acumulator[0]  ; acumulator[1]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.649      ;
+; 0.498 ; acumulator[18] ; acumulator[19]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.650      ;
+; 0.498 ; acumulator[27] ; acumulator[28]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.650      ;
+; 0.498 ; acumulator[25] ; acumulator[26]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.650      ;
+; 0.499 ; acumulator[14] ; acumulator[15]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.651      ;
+; 0.499 ; acumulator[13] ; acumulator[14]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.651      ;
+; 0.499 ; acumulator[29] ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.651      ;
+; 0.499 ; acumulator[20] ; acumulator[21]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.651      ;
+; 0.502 ; acumulator[30] ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.654      ;
+; 0.511 ; acumulator[10] ; acumulator[11]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.663      ;
+; 0.511 ; acumulator[8]  ; acumulator[9]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.663      ;
+; 0.511 ; acumulator[24] ; acumulator[25]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.663      ;
+; 0.511 ; acumulator[19] ; acumulator[20]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.663      ;
+; 0.511 ; acumulator[3]  ; acumulator[4]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.663      ;
+; 0.512 ; acumulator[6]  ; acumulator[7]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.664      ;
+; 0.512 ; acumulator[28] ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.664      ;
+; 0.512 ; acumulator[22] ; acumulator[23]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.664      ;
+; 0.512 ; acumulator[12] ; acumulator[13]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.664      ;
+; 0.512 ; acumulator[21] ; acumulator[22]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.664      ;
+; 0.512 ; acumulator[5]  ; acumulator[6]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.664      ;
+; 0.514 ; acumulator[26] ; acumulator[27]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.666      ;
+; 0.531 ; acumulator[16] ; acumulator[18]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.683      ;
+; 0.531 ; acumulator[9]  ; acumulator[11]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.683      ;
+; 0.531 ; acumulator[11] ; acumulator[13]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.683      ;
+; 0.532 ; acumulator[0]  ; acumulator[2]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.684      ;
+; 0.532 ; acumulator[17] ; acumulator[19]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.684      ;
+; 0.533 ; acumulator[18] ; acumulator[20]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.685      ;
+; 0.533 ; acumulator[27] ; acumulator[29]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.685      ;
+; 0.533 ; acumulator[25] ; acumulator[27]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.685      ;
+; 0.534 ; acumulator[13] ; acumulator[15]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.686      ;
+; 0.534 ; acumulator[29] ; acumulator[31]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.686      ;
+; 0.534 ; acumulator[20] ; acumulator[22]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.686      ;
+; 0.535 ; acumulator[20] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg0  ; clk          ; clk         ; 0.000        ; 0.066      ; 0.739      ;
+; 0.538 ; acumulator[24] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg4  ; clk          ; clk         ; 0.000        ; 0.066      ; 0.742      ;
+; 0.540 ; acumulator[15] ; acumulator[16]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.006      ; 0.698      ;
+; 0.541 ; acumulator[31] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg11 ; clk          ; clk         ; 0.000        ; 0.066      ; 0.745      ;
+; 0.546 ; acumulator[30] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg10 ; clk          ; clk         ; 0.000        ; 0.066      ; 0.750      ;
+; 0.546 ; acumulator[3]  ; acumulator[5]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.698      ;
+; 0.546 ; acumulator[8]  ; acumulator[10]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.698      ;
+; 0.546 ; acumulator[10] ; acumulator[12]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.698      ;
+; 0.546 ; acumulator[24] ; acumulator[26]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.698      ;
+; 0.546 ; acumulator[19] ; acumulator[21]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.698      ;
+; 0.547 ; acumulator[23] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg3  ; clk          ; clk         ; 0.000        ; 0.066      ; 0.751      ;
+; 0.547 ; acumulator[12] ; acumulator[14]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.699      ;
+; 0.547 ; acumulator[28] ; acumulator[30]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.699      ;
+; 0.547 ; acumulator[5]  ; acumulator[7]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.699      ;
+; 0.547 ; acumulator[21] ; acumulator[23]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.699      ;
+; 0.549 ; acumulator[7]  ; acumulator[8]                                                                                                                             ; clk          ; clk         ; 0.000        ; 0.000      ; 0.701      ;
+; 0.549 ; acumulator[26] ; acumulator[28]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.701      ;
+; 0.550 ; acumulator[26] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a6~porta_address_reg6  ; clk          ; clk         ; 0.000        ; 0.066      ; 0.754      ;
+; 0.552 ; acumulator[26] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg6  ; clk          ; clk         ; 0.000        ; 0.055      ; 0.745      ;
+; 0.554 ; acumulator[23] ; acumulator[24]                                                                                                                            ; clk          ; clk         ; 0.000        ; 0.000      ; 0.706      ;
+; 0.556 ; acumulator[30] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg10 ; clk          ; clk         ; 0.000        ; 0.055      ; 0.749      ;
+; 0.557 ; acumulator[24] ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg4  ; clk          ; clk         ; 0.000        ; 0.055      ; 0.750      ;
++-------+----------------+-------------------------------------------------------------------------------------------------------------------------------------------+--------------+-------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fast Model Minimum Pulse Width: 'clk'                                                                                                                                                                                     ;
++-------+--------------+----------------+------------------+-------+------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+; Slack ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                                                                                                                                    ;
++-------+--------------+----------------+------------------+-------+------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[0]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[0]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[1]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[2]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[2]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[3]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[4]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[5]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[6]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[7]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[8]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9]                           ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|q_a[9]                           ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg2  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg2  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg3  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg3  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg4  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg4  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg5  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg5  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg6  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg6  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg7  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg7  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg8  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg8  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg9  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a0~porta_address_reg9  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg2  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg2  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg3  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg3  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg4  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg4  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg5  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg5  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg6  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg6  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg7  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg7  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg8  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg8  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg9  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a1~porta_address_reg9  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg2  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg2  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg3  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg3  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg4  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg4  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg5  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg5  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg6  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg6  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg7  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg7  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg8  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg8  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg9  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a2~porta_address_reg9  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg0  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg1  ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg10 ;
+; 6.933 ; 10.000       ; 3.067          ; High Pulse Width ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg11 ;
+; 6.933 ; 10.000       ; 3.067          ; Low Pulse Width  ; clk   ; Rise       ; sig_rom:i_rom|altsyncram:altsyncram_component|altsyncram_cv91:auto_generated|altsyncram_0992:altsyncram1|ram_block3a3~porta_address_reg11 ;
++-------+--------------+----------------+------------------+-------+------------+-------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Fast Model Minimum Pulse Width: 'altera_reserved_tck'                                                       ;
++--------+--------------+----------------+-----------+---------------------+------------+---------------------+
+; Slack  ; Actual Width ; Required Width ; Type      ; Clock               ; Clock Edge ; Target              ;
++--------+--------------+----------------+-----------+---------------------+------------+---------------------+
+; 97.778 ; 100.000      ; 2.222          ; Port Rate ; altera_reserved_tck ; Rise       ; altera_reserved_tck ;
++--------+--------------+----------------+-----------+---------------------+------------+---------------------+
+
+
++-----------------------------------------------------------------------+
+; Clock to Output Times                                                 ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; vga_clk   ; clk        ; 3.014 ; 3.014 ; Rise       ; clk             ;
+; vga_r[*]  ; clk        ; 5.012 ; 5.012 ; Rise       ; clk             ;
+;  vga_r[0] ; clk        ; 4.299 ; 4.299 ; Rise       ; clk             ;
+;  vga_r[1] ; clk        ; 4.861 ; 4.861 ; Rise       ; clk             ;
+;  vga_r[2] ; clk        ; 5.012 ; 5.012 ; Rise       ; clk             ;
+;  vga_r[3] ; clk        ; 4.868 ; 4.868 ; Rise       ; clk             ;
+;  vga_r[4] ; clk        ; 4.256 ; 4.256 ; Rise       ; clk             ;
+;  vga_r[5] ; clk        ; 4.705 ; 4.705 ; Rise       ; clk             ;
+;  vga_r[6] ; clk        ; 4.312 ; 4.312 ; Rise       ; clk             ;
+;  vga_r[7] ; clk        ; 4.207 ; 4.207 ; Rise       ; clk             ;
+;  vga_r[8] ; clk        ; 4.847 ; 4.847 ; Rise       ; clk             ;
+;  vga_r[9] ; clk        ; 4.139 ; 4.139 ; Rise       ; clk             ;
+; vga_clk   ; clk        ; 3.014 ; 3.014 ; Fall       ; clk             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Clock to Output Times                                         ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; vga_clk   ; clk        ; 3.014 ; 3.014 ; Rise       ; clk             ;
+; vga_r[*]  ; clk        ; 4.139 ; 4.139 ; Rise       ; clk             ;
+;  vga_r[0] ; clk        ; 4.299 ; 4.299 ; Rise       ; clk             ;
+;  vga_r[1] ; clk        ; 4.861 ; 4.861 ; Rise       ; clk             ;
+;  vga_r[2] ; clk        ; 5.012 ; 5.012 ; Rise       ; clk             ;
+;  vga_r[3] ; clk        ; 4.868 ; 4.868 ; Rise       ; clk             ;
+;  vga_r[4] ; clk        ; 4.256 ; 4.256 ; Rise       ; clk             ;
+;  vga_r[5] ; clk        ; 4.705 ; 4.705 ; Rise       ; clk             ;
+;  vga_r[6] ; clk        ; 4.312 ; 4.312 ; Rise       ; clk             ;
+;  vga_r[7] ; clk        ; 4.207 ; 4.207 ; Rise       ; clk             ;
+;  vga_r[8] ; clk        ; 4.847 ; 4.847 ; Rise       ; clk             ;
+;  vga_r[9] ; clk        ; 4.139 ; 4.139 ; Rise       ; clk             ;
+; vga_clk   ; clk        ; 3.014 ; 3.014 ; Fall       ; clk             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++----------------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                              ;
++----------------------+--------+-------+----------+---------+---------------------+
+; Clock                ; Setup  ; Hold  ; Recovery ; Removal ; Minimum Pulse Width ;
++----------------------+--------+-------+----------+---------+---------------------+
+; Worst-case Slack     ; 16.063 ; 0.243 ; N/A      ; N/A     ; 6.933               ;
+;  altera_reserved_tck ; N/A    ; N/A   ; N/A      ; N/A     ; 97.778              ;
+;  clk                 ; 16.063 ; 0.243 ; N/A      ; N/A     ; 6.933               ;
+; Design-wide TNS      ; 0.0    ; 0.0   ; 0.0      ; 0.0     ; 0.0                 ;
+;  altera_reserved_tck ; N/A    ; N/A   ; N/A      ; N/A     ; 0.000               ;
+;  clk                 ; 0.000  ; 0.000 ; N/A      ; N/A     ; 0.000               ;
++----------------------+--------+-------+----------+---------+---------------------+
+
+
++-----------------------------------------------------------------------+
+; Clock to Output Times                                                 ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; vga_clk   ; clk        ; 5.541 ; 5.541 ; Rise       ; clk             ;
+; vga_r[*]  ; clk        ; 9.218 ; 9.218 ; Rise       ; clk             ;
+;  vga_r[0] ; clk        ; 7.682 ; 7.682 ; Rise       ; clk             ;
+;  vga_r[1] ; clk        ; 8.789 ; 8.789 ; Rise       ; clk             ;
+;  vga_r[2] ; clk        ; 9.218 ; 9.218 ; Rise       ; clk             ;
+;  vga_r[3] ; clk        ; 9.004 ; 9.004 ; Rise       ; clk             ;
+;  vga_r[4] ; clk        ; 7.635 ; 7.635 ; Rise       ; clk             ;
+;  vga_r[5] ; clk        ; 8.421 ; 8.421 ; Rise       ; clk             ;
+;  vga_r[6] ; clk        ; 7.722 ; 7.722 ; Rise       ; clk             ;
+;  vga_r[7] ; clk        ; 7.478 ; 7.478 ; Rise       ; clk             ;
+;  vga_r[8] ; clk        ; 8.912 ; 8.912 ; Rise       ; clk             ;
+;  vga_r[9] ; clk        ; 7.391 ; 7.391 ; Rise       ; clk             ;
+; vga_clk   ; clk        ; 5.541 ; 5.541 ; Fall       ; clk             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Clock to Output Times                                         ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; vga_clk   ; clk        ; 3.014 ; 3.014 ; Rise       ; clk             ;
+; vga_r[*]  ; clk        ; 4.139 ; 4.139 ; Rise       ; clk             ;
+;  vga_r[0] ; clk        ; 4.299 ; 4.299 ; Rise       ; clk             ;
+;  vga_r[1] ; clk        ; 4.861 ; 4.861 ; Rise       ; clk             ;
+;  vga_r[2] ; clk        ; 5.012 ; 5.012 ; Rise       ; clk             ;
+;  vga_r[3] ; clk        ; 4.868 ; 4.868 ; Rise       ; clk             ;
+;  vga_r[4] ; clk        ; 4.256 ; 4.256 ; Rise       ; clk             ;
+;  vga_r[5] ; clk        ; 4.705 ; 4.705 ; Rise       ; clk             ;
+;  vga_r[6] ; clk        ; 4.312 ; 4.312 ; Rise       ; clk             ;
+;  vga_r[7] ; clk        ; 4.207 ; 4.207 ; Rise       ; clk             ;
+;  vga_r[8] ; clk        ; 4.847 ; 4.847 ; Rise       ; clk             ;
+;  vga_r[9] ; clk        ; 4.139 ; 4.139 ; Rise       ; clk             ;
+; vga_clk   ; clk        ; 3.014 ; 3.014 ; Fall       ; clk             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++-------------------------------------------------------------------+
+; Setup Transfers                                                   ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; clk        ; clk      ; 768      ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++-------------------------------------------------------------------+
+; Hold Transfers                                                    ;
++------------+----------+----------+----------+----------+----------+
+; From Clock ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++------------+----------+----------+----------+----------+----------+
+; clk        ; clk      ; 768      ; 0        ; 0        ; 0        ;
++------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 2     ; 2    ;
+; Unconstrained Input Port Paths  ; 43    ; 43   ;
+; Unconstrained Output Ports      ; 11    ; 11   ;
+; Unconstrained Output Port Paths ; 11    ; 11   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Mon Feb 24 13:05:36 2020
+Info: Command: quartus_sta sin_gen -c sin_gen
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (332164): Evaluating HDL-embedded SDC commands
+    Info (332165): Entity sld_jtag_hub
+        Info (332166): create_clock -name altera_reserved_tck [get_ports {altera_reserved_tck}] -period 10MHz   
+        Info (332166): set_clock_groups -asynchronous -group {altera_reserved_tck}
+Info (332104): Reading SDC File: 'SDC.sdc'
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow Model
+Info (332146): Worst-case setup slack is 16.063
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    16.063         0.000 clk 
+Info (332146): Worst-case hold slack is 0.531
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):     0.531         0.000 clk 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 6.933
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):     6.933         0.000 clk 
+    Info (332119):    97.778         0.000 altera_reserved_tck 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332146): Worst-case setup slack is 18.021
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    18.021         0.000 clk 
+Info (332146): Worst-case hold slack is 0.243
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):     0.243         0.000 clk 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 6.933
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):     6.933         0.000 clk 
+    Info (332119):    97.778         0.000 altera_reserved_tck 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4541 megabytes
+    Info: Processing ended: Mon Feb 24 13:05:37 2020
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
+
+

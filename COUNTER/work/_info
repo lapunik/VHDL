@@ -1,0 +1,114 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Lapunik/Dropbox/VHDL/TOP_REGISTR_SEDM_SEGMENT
+Ecounter
+Z0 w1574031964
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/Lapunik/Dropbox/VHDL/COUNTER
+Z5 8C:\Users\Lapunik\Dropbox\VHDL\COUNTER\counter.vhd
+Z6 FC:\Users\Lapunik\Dropbox\VHDL\COUNTER\counter.vhd
+l0
+L12
+VFFLh0cF@=HYZV<be1Lll10
+!s100 5o85EFX1;7UOPk]C0CZJY0
+Z7 OP;C;10.4a;61
+32
+Z8 !s110 1574031976
+!i10b 1
+Z9 !s108 1574031976.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Lapunik\Dropbox\VHDL\COUNTER\counter.vhd|
+Z11 !s107 C:\Users\Lapunik\Dropbox\VHDL\COUNTER\counter.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Artl
+R1
+R2
+R3
+DEx4 work 7 counter 0 22 FFLh0cF@=HYZV<be1Lll10
+l31
+L29
+V1VhnQa`Z<8l_dWd@ikCLB1
+!s100 527HoR0Rmhg>jQd0iYQi:3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_counter
+Z14 w1574031693
+R1
+R2
+R3
+R4
+Z15 8C:\Users\Lapunik\Dropbox\VHDL\COUNTER\tb_counter.vhd
+Z16 FC:\Users\Lapunik\Dropbox\VHDL\COUNTER\tb_counter.vhd
+l0
+L6
+VTXXj>6zU^g_KiZa7Pz5IT2
+!s100 ][d`QdcdX8eNWmQD^IHj11
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Lapunik\Dropbox\VHDL\COUNTER\tb_counter.vhd|
+Z18 !s107 C:\Users\Lapunik\Dropbox\VHDL\COUNTER\tb_counter.vhd|
+!i113 1
+R12
+R13
+Asimulace
+R1
+R2
+R3
+Z19 DEx4 work 10 tb_counter 0 22 TXXj>6zU^g_KiZa7Pz5IT2
+l36
+L15
+Z20 VeOcWhS7LOb9UaFE]MNUhR1
+Z21 !s100 gla@QXO7iR31=V9FXb3QS0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Etb_registr_8bit_async
+w1573254999
+R1
+R2
+R3
+R4
+R15
+R16
+l0
+L6
+Va0@X]6mJHC[fz;z[ZS]YN0
+!s100 37`cInNbPJ<GzTjYnD3KV2
+R7
+32
+!s110 1573255026
+!i10b 1
+!s108 1573255026.000000
+R17
+R18
+!i113 1
+R12
+R13

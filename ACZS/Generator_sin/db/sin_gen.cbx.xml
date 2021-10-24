@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="sin_gen">
+		<CBX_INST_ENTRY INSTANCE_NAME="|sin_gen|sig_rom:i_rom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_cv91.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,39 @@
+-- pak to bude first_test.vhd , otevrít z ModelSim (edit.new.file.vhd) 
+-- asi by to chtelo se podivat jak PSPad s VHLD, jestli dostahnout nebo jak..
+
+-- CTRL + F9 = KOMPILACE normálnì podle modelsimu 
+
+library ieee; -- obrovská knihovna
+
+use ieee.std_logic_1164.all; --  balík z knihovny (singály, logické operátory, vektroy..)
+use ieee.numeric_std.all; -- balík z knihovny (pokud potrebujeme po?ítat)
+
+entity ko_d_async_rise is --
+
+port
+(
+  input_D : in std_logic; 
+  input_CLK : in std_logic;
+  input_RESTART : in std_logic;
+  output_Q : out std_logic
+);
+
+end ko_d_async_rise; 
+
+
+architecture rtl of ko_d_async_rise is  
+
+begin -- telo architektury, vsechno co je mezi begin a end se deje v jeden okamzik
+
+pro_1 process(input_CLK,input_RESTART)
+if input_RESTART ='1' then 
+output_Q <='0';
+
+else if input_CLK'event and input_CLK ='1' then q <= d;
+end if
+ 
+end process pro_1;
+
+-- output_y <= input_a and input_b; -- zapsani do portu nebo signalu <=, and, not, nor, xor atd.., ZAVORKOVAT!! divny veci s prioritama
+
+end architecture rtl; -- konec architecture a begin  

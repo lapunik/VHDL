@@ -1,0 +1,85 @@
+m255
+K4
+z0
+Efirst_test
+Z0 w1570435958
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/Lapunik/Dropbox/VHDL
+Z5 8C:\Users\Lapunik\Dropbox\VHDL\first_test.vhd
+Z6 FC:\Users\Lapunik\Dropbox\VHDL\first_test.vhd
+l0
+L9
+VY]XU;z>VK_NaR_LXzc67D0
+!s100 Shi3nO?bjzga<Kf>5ZPlk3
+Z7 OP;C;10.4a;61
+31
+Z8 !s110 1570790420
+!i10b 1
+Z9 !s108 1570790420.000000
+Z10 !s90 -check_synthesis|-work|work|-93|C:\Users\Lapunik\Dropbox\VHDL\first_test.vhd|
+Z11 !s107 C:\Users\Lapunik\Dropbox\VHDL\first_test.vhd|
+!i113 1
+Z12 o-check_synthesis -work work -93 -O0
+Z13 tExplicit 1
+Artl
+R1
+R2
+R3
+DEx4 work 10 first_test 0 22 Y]XU;z>VK_NaR_LXzc67D0
+l27
+L23
+VlMWk>`_7Vdk4SHNe02PL52
+!s100 O=NCJNl?eXE5fY5?=Q2@K0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etestbench
+Z14 w1570436045
+R1
+R2
+R3
+R4
+Z15 8C:\Users\Lapunik\Dropbox\VHDL\testbech.vhd
+Z16 FC:\Users\Lapunik\Dropbox\VHDL\testbech.vhd
+l0
+L6
+V`dBDg8OOTTGmn2<NmVO6B1
+!s100 0Bge;BjDOm;5E<J__ZGNS3
+R7
+31
+Z17 !s110 1570790055
+!i10b 1
+Z18 !s108 1570790055.000000
+Z19 !s90 -check_synthesis|-work|work|-93|C:\Users\Lapunik\Dropbox\VHDL\testbech.vhd|
+Z20 !s107 C:\Users\Lapunik\Dropbox\VHDL\testbech.vhd|
+!i113 1
+R12
+R13
+Asimulace
+R1
+R2
+R3
+DEx4 work 9 testbench 0 22 `dBDg8OOTTGmn2<NmVO6B1
+l30
+L9
+Va?@aC62>Y`7OhOO916lSk3
+!s100 nS]Ac:PdhlH7=@7KTmahl3
+R7
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13

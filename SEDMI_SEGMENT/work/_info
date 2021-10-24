@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Lapunik/Dropbox/VHDL/REGISTR_8_bit
+Esedmi_segment
+Z0 w1571999928
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT
+Z5 8C:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT/sedmi_segment.vhd
+Z6 FC:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT/sedmi_segment.vhd
+l0
+L12
+VzW8?:=G7K`:KA5aInV?FL2
+!s100 dE_flB<9HfHB<fW32BjO83
+Z7 OP;C;10.4a;61
+32
+Z8 !s110 1572038891
+!i10b 1
+Z9 !s108 1572038891.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT/sedmi_segment.vhd|
+Z11 !s107 C:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT/sedmi_segment.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+Artl
+R1
+R2
+R3
+DEx4 work 13 sedmi_segment 0 22 zW8?:=G7K`:KA5aInV?FL2
+l26
+L24
+VL2]hOR5ObRko?jl8hSlgJ2
+!s100 cF4oJWD9Id[R:TF0DeBk<2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Esedmi_segment_async
+Z14 w1572039448
+R1
+R2
+R3
+R4
+Z15 8C:\Users\Lapunik\Dropbox\VHDL\SEDMI_SEGMENT\sedmi_segment_async.vhd
+Z16 FC:\Users\Lapunik\Dropbox\VHDL\SEDMI_SEGMENT\sedmi_segment_async.vhd
+l0
+L12
+VOM@7L0PNhHDYIa]eolZdE3
+!s100 IQ1BdUGD=WlM7>NYD2?E30
+R7
+32
+Z17 !s110 1572039807
+!i10b 1
+Z18 !s108 1572039807.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Lapunik\Dropbox\VHDL\SEDMI_SEGMENT\sedmi_segment_async.vhd|
+Z20 !s107 C:\Users\Lapunik\Dropbox\VHDL\SEDMI_SEGMENT\sedmi_segment_async.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 19 sedmi_segment_async 0 22 OM@7L0PNhHDYIa]eolZdE3
+l24
+L22
+V00=OXJm9E:C_zKc_9dKYJ3
+!s100 6d_^8LJ]CzGbz>fKfEU1Q1
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Etb_sedmi_segment
+Z21 w1572000036
+R1
+R2
+R3
+R4
+Z22 8C:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT/tb_sedmi_segment.vhd
+Z23 FC:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT/tb_sedmi_segment.vhd
+l0
+L6
+VTBoj1WNBQJ[fReV]TlP4M2
+!s100 F_ogB6TDKKbmRU7Wgb0SU1
+R7
+32
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT/tb_sedmi_segment.vhd|
+Z25 !s107 C:/Users/Lapunik/Dropbox/VHDL/SEDMI_SEGMENT/tb_sedmi_segment.vhd|
+!i113 1
+R12
+R13
+Asimulace
+R1
+R2
+R3
+DEx4 work 16 tb_sedmi_segment 0 22 TBoj1WNBQJ[fReV]TlP4M2
+l32
+L9
+V@F0cPX?f[>CBE4i0k4WPF2
+!s100 do73jCHZP;?Pj7^T`b7L;0
+R7
+32
+R8
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13
+Etb_sedmi_segment_async
+Z26 w1572039799
+R1
+R2
+R3
+R4
+Z27 8C:\Users\Lapunik\Dropbox\VHDL\SEDMI_SEGMENT\tb_sedmi_segment_async.vhd
+Z28 FC:\Users\Lapunik\Dropbox\VHDL\SEDMI_SEGMENT\tb_sedmi_segment_async.vhd
+l0
+L6
+V7GB0<LXb0d6XhUB>Lig=o0
+!s100 S_b`OAB5ECi=j2kVma[9`2
+R7
+32
+Z29 !s110 1572039808
+!i10b 1
+Z30 !s108 1572039808.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Lapunik\Dropbox\VHDL\SEDMI_SEGMENT\tb_sedmi_segment_async.vhd|
+Z32 !s107 C:\Users\Lapunik\Dropbox\VHDL\SEDMI_SEGMENT\tb_sedmi_segment_async.vhd|
+!i113 1
+R12
+R13
+Asimulace
+R1
+R2
+R3
+DEx4 work 22 tb_sedmi_segment_async 0 22 7GB0<LXb0d6XhUB>Lig=o0
+l28
+L9
+V>I6Ged8kSOan`2dURzN6n2
+Z33 !s100 >ihI;5@UD05<D;ak]S]<j3
+R7
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R12
+R13

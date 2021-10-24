@@ -1,0 +1,88 @@
+-- Copyright (C) 1991-2013 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=10;
+DEPTH=4096;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=UNS;
+
+CONTENT BEGIN
+	[0..63]  :   0;
+	[64..127]  :   63;
+	[128..191]  :   127;
+	[192..255]  :   255;
+	[256..319]  :   511;
+	[320..383]  :   1023;
+	[384..447]  :   511;
+	[448..511]  :   255;
+	[512..575]  :   127;
+	[576..639]  :   63;
+	[640..703]  :   0;
+	[704..767]  :   63;
+	[768..831]  :   127;
+	[832..895]  :   255;
+	[896..959]  :   511;
+	[960..1023]  :   1023;
+	[1024..1087]  :   511;
+	[1088..1151]  :   255;
+	[1152..1215]  :   127;
+	[1216..1279]  :   63;
+	[1280..1343]  :   0;
+	[1344..1407]  :   63;
+	[1408..1471]  :   127;
+	[1472..1535]  :   255;
+	[1536..1599]  :   511;
+	[1600..1663]  :   1023;
+	[1664..1727]  :   511;
+	[1728..1791]  :   255;
+	[1792..1855]  :   127;
+	[1856..1919]  :   63;
+	[1920..1983]  :   0;
+	[1984..2047]  :   63;
+	[2048..2111]  :   127;
+	[2112..2175]  :   255;
+	[2176..2239]  :   511;
+	[2240..2303]  :   1023;
+	[2304..2367]  :   511;
+	[2368..2431]  :   255;
+	[2432..2495]  :   127;
+	[2496..2559]  :   63;
+	[2560..2623]  :   0;
+	[2624..2687]  :   63;
+	[2688..2751]  :   127;
+	[2752..2815]  :   255;
+	[2816..2879]  :   511;
+	[2880..2943]  :   1023;
+	[2944..3007]  :   511;
+	[3008..3071]  :   255;
+	[3072..3135]  :   127;
+	[3136..3199]  :   63;
+	[3200..3263]  :   0;
+	[3264..3327]  :   63;
+	[3328..3391]  :   127;
+	[3392..3455]  :   255;
+	[3456..3519]  :   511;
+	[3520..3583]  :   1023;
+	[3584..3647]  :   511;
+	[3648..3711]  :   255;
+	[3712..3775]  :   127;
+	[3776..3839]  :   63;
+	[3840..3903]  :   0;
+	[3904..3967]  :   63;
+	[3968..4031]  :   127;
+	[4032..4095]  :   255;
+END;
